@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj": {}
+    "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj": {
+    "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
+        "projectUniqueName": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
         "projectName": "BerberRandevuSitesi",
-        "projectPath": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
+        "projectPath": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
         "packagesPath": "C:\\Users\\yalki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi\\obj\\",
+        "outputPath": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

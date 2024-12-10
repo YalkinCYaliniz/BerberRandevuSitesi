@@ -18,7 +18,22 @@ namespace BerberRandevuSitesi.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Randevu()
+        {
+            return View();
+        }
+
+        public IActionResult Hizmetler()
+        {
+            return View();
+        }
+
+        public IActionResult SacDene()
+        {
+            return View();
+        }
+
+        public IActionResult Hakkimizda()
         {
             return View();
         }
