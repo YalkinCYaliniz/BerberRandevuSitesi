@@ -1,8 +1,17 @@
+wwwroot\css\hakkimizda.css
 wwwroot\css\styles.css
 wwwroot\favicon.ico
 wwwroot\images\background.jpg
 wwwroot\images\hakkimizda.jpg
 wwwroot\images\hizmetler.jpg
+wwwroot\images\person1.jpg
+wwwroot\images\person2.jpg
+wwwroot\images\person3.jpg
+wwwroot\images\person4.jpg
+wwwroot\images\person5.jpg
+wwwroot\images\person6.jpg
+wwwroot\images\person7.jpg
+wwwroot\images\person8.jpg
 wwwroot\images\randevu.jpg
 wwwroot\images\sacdene.gif
 wwwroot\images\slider1.jpg

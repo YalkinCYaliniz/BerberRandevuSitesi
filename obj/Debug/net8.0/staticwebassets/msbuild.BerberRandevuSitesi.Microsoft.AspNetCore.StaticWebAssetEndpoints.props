@@ -12,17 +12,29 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d2v16iipdt"},{"Name":"integrity","Value":"sha256-hQHvhJderepHzHWPU9I8cwcMYIzWdzSEJ7EHmsseB4s="},{"Name":"label","Value":"_content/BerberRandevuSitesi/BerberRandevuSitesi.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hQHvhJderepHzHWPU9I8cwcMYIzWdzSEJ7EHmsseB4s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 13:35:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/styles.2tlzahktmx.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/hakkimizda.1ilczkbtq6.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\hakkimizda.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2tlzahktmx"},{"Name":"integrity","Value":"sha256-JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2546"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 15:14:01 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ilczkbtq6"},{"Name":"integrity","Value":"sha256-J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/hakkimizda.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1159"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:23:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/hakkimizda.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\hakkimizda.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1159"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:23:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2546"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 15:14:01 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1181"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:15:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/styles.vio7lrtuco.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vio7lrtuco"},{"Name":"integrity","Value":"sha256-Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1181"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:15:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -71,6 +83,102 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4\u002BRg1gIHlc7IJkw9MdQAxSjxCO/i/B6wshwmBUwkdoM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"26618"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224\u002BRg1gIHlc7IJkw9MdQAxSjxCO/i/B6wshwmBUwkdoM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 14:22:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8\u002BJK4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28097"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8\u002BJK4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:58:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person1.mtwdc3ifck.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mtwdc3ifck"},{"Name":"integrity","Value":"sha256-lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8\u002BJK4="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/person1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28097"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8\u002BJK4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:58:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person2.02r0drd1mn.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"02r0drd1mn"},{"Name":"integrity","Value":"sha256-CO6ezmvJ1SrNUqUYn1ur\u002BFCrniyJN6CznkGnULcKahs="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/person2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"39597"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CO6ezmvJ1SrNUqUYn1ur\u002BFCrniyJN6CznkGnULcKahs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CO6ezmvJ1SrNUqUYn1ur\u002BFCrniyJN6CznkGnULcKahs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"39597"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CO6ezmvJ1SrNUqUYn1ur\u002BFCrniyJN6CznkGnULcKahs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"43472"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person3.xca31kgj88.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xca31kgj88"},{"Name":"integrity","Value":"sha256-MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/person3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"43472"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person4.dn5zg76g0h.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dn5zg76g0h"},{"Name":"integrity","Value":"sha256-pwwgGUwuA8rxWz6b8plOol6O2zlAw\u002B5d03tkm\u002B2DyFM="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/person4.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24807"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pwwgGUwuA8rxWz6b8plOol6O2zlAw\u002B5d03tkm\u002B2DyFM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person4.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pwwgGUwuA8rxWz6b8plOol6O2zlAw\u002B5d03tkm\u002B2DyFM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"24807"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pwwgGUwuA8rxWz6b8plOol6O2zlAw\u002B5d03tkm\u002B2DyFM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person5.e1sy8x738i.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e1sy8x738i"},{"Name":"integrity","Value":"sha256-ch7pP\u002BPVlqV2mTKXG/Sz\u002BzlOAV59M\u002BhOQopp6h5rT\u002Bw="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/person5.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40248"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ch7pP\u002BPVlqV2mTKXG/Sz\u002BzlOAV59M\u002BhOQopp6h5rT\u002Bw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person5.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ch7pP\u002BPVlqV2mTKXG/Sz\u002BzlOAV59M\u002BhOQopp6h5rT\u002Bw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"40248"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ch7pP\u002BPVlqV2mTKXG/Sz\u002BzlOAV59M\u002BhOQopp6h5rT\u002Bw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GKHPJraJ\u002BG2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"26282"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GKHPJraJ\u002BG2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person6.kpl4cje6rr.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kpl4cje6rr"},{"Name":"integrity","Value":"sha256-GKHPJraJ\u002BG2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/person6.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26282"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GKHPJraJ\u002BG2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 12:59:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person7.8i9qfbpk4f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8i9qfbpk4f"},{"Name":"integrity","Value":"sha256-oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/person7.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10920"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:00:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person7.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10920"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:00:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person8.4rn57rdjcn.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person8.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4rn57rdjcn"},{"Name":"integrity","Value":"sha256-gEpRe\u002Bs7f14iKe8CKILI30o\u002ByJDxQ268Z3SciKYfY5k="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/person8.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"120022"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gEpRe\u002Bs7f14iKe8CKILI30o\u002ByJDxQ268Z3SciKYfY5k=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:01:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/person8.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person8.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gEpRe\u002Bs7f14iKe8CKILI30o\u002ByJDxQ268Z3SciKYfY5k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"120022"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gEpRe\u002Bs7f14iKe8CKILI30o\u002ByJDxQ268Z3SciKYfY5k=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:01:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/randevu.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\randevu.jpg'))</AssetFile>

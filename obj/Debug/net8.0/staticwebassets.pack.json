@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BerberRandevuSitesi.d2v16iipdt.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hakkimizda.css",
+      "PackagePath": "staticwebassets\\css\\hakkimizda.css"
+    },
+    {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
@@ -23,6 +27,38 @@
     {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\hizmetler.jpg",
       "PackagePath": "staticwebassets\\images\\hizmetler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person1.jpg",
+      "PackagePath": "staticwebassets\\images\\person1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person2.jpg",
+      "PackagePath": "staticwebassets\\images\\person2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person3.jpg",
+      "PackagePath": "staticwebassets\\images\\person3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person4.jpg",
+      "PackagePath": "staticwebassets\\images\\person4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person5.jpg",
+      "PackagePath": "staticwebassets\\images\\person5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person6.jpg",
+      "PackagePath": "staticwebassets\\images\\person6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person7.jpg",
+      "PackagePath": "staticwebassets\\images\\person7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person8.jpg",
+      "PackagePath": "staticwebassets\\images\\person8.jpg"
     },
     {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\randevu.jpg",

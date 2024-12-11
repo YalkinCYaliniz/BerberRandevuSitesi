@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DvsMo6j8zeuePLjPSknzdtLBR7tnmmLbbQ/PPLA2M0w=",
+  "Hash": "EiJXuQDux7qcbgTZmXI8pT1rH2Fa8T/RfyjEpQnwY8g=",
   "Source": "BerberRandevuSitesi",
   "BasePath": "_content/BerberRandevuSitesi",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BerberRandevuSitesi.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hakkimizda.css",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "css/hakkimizda#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ilczkbtq6",
+      "Integrity": "J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\hakkimizda.css"
+    },
+    {
       "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2tlzahktmx",
-      "Integrity": "JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc=",
+      "Fingerprint": "vio7lrtuco",
+      "Integrity": "Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -162,6 +183,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hizmetler.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person1.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/person1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mtwdc3ifck",
+      "Integrity": "lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8+JK4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person2.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/person2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "02r0drd1mn",
+      "Integrity": "CO6ezmvJ1SrNUqUYn1ur+FCrniyJN6CznkGnULcKahs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person3.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/person3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xca31kgj88",
+      "Integrity": "MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person4.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/person4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dn5zg76g0h",
+      "Integrity": "pwwgGUwuA8rxWz6b8plOol6O2zlAw+5d03tkm+2DyFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person5.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/person5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e1sy8x738i",
+      "Integrity": "ch7pP+PVlqV2mTKXG/Sz+zlOAV59M+hOQopp6h5rT+w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person6.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/person6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kpl4cje6rr",
+      "Integrity": "GKHPJraJ+G2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person7.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/person7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8i9qfbpk4f",
+      "Integrity": "oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person8.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/person8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4rn57rdjcn",
+      "Integrity": "gEpRe+s7f14iKe8CKILI30o+yJDxQ268Z3SciKYfY5k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\person8.jpg"
     },
     {
       "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\randevu.jpg",
@@ -1653,8 +1842,8 @@
       ]
     },
     {
-      "Route": "css/styles.2tlzahktmx.css",
-      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
+      "Route": "css/hakkimizda.1ilczkbtq6.css",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hakkimizda.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1663,7 +1852,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2546"
+          "Value": "1159"
         },
         {
           "Name": "Content-Type",
@@ -1671,11 +1860,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc=\""
+          "Value": "\"J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 15:14:01 GMT"
+          "Value": "Wed, 11 Dec 2024 13:23:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1685,15 +1874,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2tlzahktmx"
+          "Value": "1ilczkbtq6"
         },
         {
           "Name": "label",
-          "Value": "css/styles.css"
+          "Value": "css/hakkimizda.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc="
+          "Value": "sha256-J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs="
+        }
+      ]
+    },
+    {
+      "Route": "css/hakkimizda.css",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hakkimizda.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:23:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs="
         }
       ]
     },
@@ -1708,7 +1934,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2546"
+          "Value": "1181"
         },
         {
           "Name": "Content-Type",
@@ -1716,11 +1942,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc=\""
+          "Value": "\"Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 15:14:01 GMT"
+          "Value": "Wed, 11 Dec 2024 13:15:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1730,7 +1956,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JgdjaElmI1QerfexH9hzdsJxOzMVlQWn0OmmpvrdRVc="
+          "Value": "sha256-Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.vio7lrtuco.css",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:15:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vio7lrtuco"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gbd0SOTmAQ2PirpCBoRv/iA82kYDHSsv/Ozvfa8UJZY="
         }
       ]
     },
@@ -2059,6 +2330,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-4+Rg1gIHlc7IJkw9MdQAxSjxCO/i/B6wshwmBUwkdoM="
+        }
+      ]
+    },
+    {
+      "Route": "images/person1.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8+JK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8+JK4="
+        }
+      ]
+    },
+    {
+      "Route": "images/person1.mtwdc3ifck.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8+JK4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mtwdc3ifck"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lsChb26XKj3zi7GLMPrKLQC0FG38mV/wAF60xC8+JK4="
+        }
+      ]
+    },
+    {
+      "Route": "images/person2.02r0drd1mn.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CO6ezmvJ1SrNUqUYn1ur+FCrniyJN6CznkGnULcKahs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "02r0drd1mn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CO6ezmvJ1SrNUqUYn1ur+FCrniyJN6CznkGnULcKahs="
+        }
+      ]
+    },
+    {
+      "Route": "images/person2.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CO6ezmvJ1SrNUqUYn1ur+FCrniyJN6CznkGnULcKahs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CO6ezmvJ1SrNUqUYn1ur+FCrniyJN6CznkGnULcKahs="
+        }
+      ]
+    },
+    {
+      "Route": "images/person3.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI="
+        }
+      ]
+    },
+    {
+      "Route": "images/person3.xca31kgj88.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xca31kgj88"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MYiIU/VgyF9/rl4VCCVWT6pV08PAuEUAWkd9qUDe0AI="
+        }
+      ]
+    },
+    {
+      "Route": "images/person4.dn5zg76g0h.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pwwgGUwuA8rxWz6b8plOol6O2zlAw+5d03tkm+2DyFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dn5zg76g0h"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pwwgGUwuA8rxWz6b8plOol6O2zlAw+5d03tkm+2DyFM="
+        }
+      ]
+    },
+    {
+      "Route": "images/person4.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pwwgGUwuA8rxWz6b8plOol6O2zlAw+5d03tkm+2DyFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pwwgGUwuA8rxWz6b8plOol6O2zlAw+5d03tkm+2DyFM="
+        }
+      ]
+    },
+    {
+      "Route": "images/person5.e1sy8x738i.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ch7pP+PVlqV2mTKXG/Sz+zlOAV59M+hOQopp6h5rT+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e1sy8x738i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ch7pP+PVlqV2mTKXG/Sz+zlOAV59M+hOQopp6h5rT+w="
+        }
+      ]
+    },
+    {
+      "Route": "images/person5.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ch7pP+PVlqV2mTKXG/Sz+zlOAV59M+hOQopp6h5rT+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ch7pP+PVlqV2mTKXG/Sz+zlOAV59M+hOQopp6h5rT+w="
+        }
+      ]
+    },
+    {
+      "Route": "images/person6.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GKHPJraJ+G2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GKHPJraJ+G2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg="
+        }
+      ]
+    },
+    {
+      "Route": "images/person6.kpl4cje6rr.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GKHPJraJ+G2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:59:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kpl4cje6rr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GKHPJraJ+G2ZxioKMDtIF9fSJv9oD8EX8mszGuqGZdg="
+        }
+      ]
+    },
+    {
+      "Route": "images/person7.8i9qfbpk4f.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:00:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8i9qfbpk4f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk="
+        }
+      ]
+    },
+    {
+      "Route": "images/person7.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:00:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oL2d2gs5lHh25AL4g1mq/D/jIeI3ivWDnnv1AebdSkk="
+        }
+      ]
+    },
+    {
+      "Route": "images/person8.4rn57rdjcn.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEpRe+s7f14iKe8CKILI30o+yJDxQ268Z3SciKYfY5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:01:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4rn57rdjcn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/person8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gEpRe+s7f14iKe8CKILI30o+yJDxQ268Z3SciKYfY5k="
+        }
+      ]
+    },
+    {
+      "Route": "images/person8.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\person8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEpRe+s7f14iKe8CKILI30o+yJDxQ268Z3SciKYfY5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:01:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gEpRe+s7f14iKe8CKILI30o+yJDxQ268Z3SciKYfY5k="
         }
       ]
     },
