@@ -12,17 +12,29 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d2v16iipdt"},{"Name":"integrity","Value":"sha256-hQHvhJderepHzHWPU9I8cwcMYIzWdzSEJ7EHmsseB4s="},{"Name":"label","Value":"_content/BerberRandevuSitesi/BerberRandevuSitesi.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hQHvhJderepHzHWPU9I8cwcMYIzWdzSEJ7EHmsseB4s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 13:35:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/hakkimizda.1ilczkbtq6.css">
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/hakkimizda.1ou66beg0v.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\hakkimizda.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ilczkbtq6"},{"Name":"integrity","Value":"sha256-J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/hakkimizda.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1159"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:23:38 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ou66beg0v"},{"Name":"integrity","Value":"sha256-P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/hakkimizda.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:30:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/hakkimizda.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\hakkimizda.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1159"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:23:38 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:30:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/hizmetler.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\hizmetler.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XX\u002BIpsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1710"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XX\u002BIpsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 14:17:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/hizmetler.h323ykexho.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\hizmetler.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h323ykexho"},{"Name":"integrity","Value":"sha256-XX\u002BIpsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/hizmetler.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1710"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XX\u002BIpsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 14:17:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
@@ -59,6 +71,42 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kz7zbl7o5y"},{"Name":"integrity","Value":"sha256-0B0xMBNAeuGx7n2PEpF6sLdZS8c8cHURgoGlFe5kUJ0="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/background.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1556256"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220B0xMBNAeuGx7n2PEpF6sLdZS8c8cHURgoGlFe5kUJ0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 14:35:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/beard-trim.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\beard-trim.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rRxF3sW2\u002BDH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"48124"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rRxF3sW2\u002BDH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:53:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/beard-trim.zwfnvtu15t.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\beard-trim.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zwfnvtu15t"},{"Name":"integrity","Value":"sha256-rRxF3sW2\u002BDH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/beard-trim.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"48124"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rRxF3sW2\u002BDH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:53:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/hair-dye.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\hair-dye.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23038"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:53:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/hair-dye.kv9cpdd8cr.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\hair-dye.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kv9cpdd8cr"},{"Name":"integrity","Value":"sha256-AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/hair-dye.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23038"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:53:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/haircut.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\haircut.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37016"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:51:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/haircut.kee780gpxp.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\haircut.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kee780gpxp"},{"Name":"integrity","Value":"sha256-rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/haircut.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37016"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:51:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/hakkimizda.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\hakkimizda.jpg'))</AssetFile>
@@ -203,6 +251,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nngszxqqf3"},{"Name":"integrity","Value":"sha256-rXX20RhF/ObO20pq4B6hbDHIngP0sOOT\u002B5GNFSHLQaU="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/sacdene.gif"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"481892"},{"Name":"Content-Type","Value":"image/gif"},{"Name":"ETag","Value":"\u0022rXX20RhF/ObO20pq4B6hbDHIngP0sOOT\u002B5GNFSHLQaU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 14:26:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/skin-care.cdj2fzatgg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\skin-care.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cdj2fzatgg"},{"Name":"integrity","Value":"sha256-kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0="},{"Name":"label","Value":"_content/BerberRandevuSitesi/images/skin-care.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"48500"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:53:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/skin-care.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\skin-care.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"48500"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 13:53:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/images/slider1.fcpza6538b.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\slider1.jpg'))</AssetFile>

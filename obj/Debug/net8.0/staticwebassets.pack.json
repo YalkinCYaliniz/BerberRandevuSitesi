@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\hakkimizda.css"
     },
     {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hizmetler.css",
+      "PackagePath": "staticwebassets\\css\\hizmetler.css"
+    },
+    {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
@@ -19,6 +23,18 @@
     {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\background.jpg",
       "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\beard-trim.jpg",
+      "PackagePath": "staticwebassets\\images\\beard-trim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\hair-dye.jpg",
+      "PackagePath": "staticwebassets\\images\\hair-dye.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\haircut.jpg",
+      "PackagePath": "staticwebassets\\images\\haircut.jpg"
     },
     {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\hakkimizda.jpg",
@@ -67,6 +83,10 @@
     {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\sacdene.gif",
       "PackagePath": "staticwebassets\\images\\sacdene.gif"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\skin-care.jpg",
+      "PackagePath": "staticwebassets\\images\\skin-care.jpg"
     },
     {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\slider1.jpg",

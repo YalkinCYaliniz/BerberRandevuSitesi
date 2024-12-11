@@ -1,7 +1,11 @@
 wwwroot\css\hakkimizda.css
+wwwroot\css\hizmetler.css
 wwwroot\css\styles.css
 wwwroot\favicon.ico
 wwwroot\images\background.jpg
+wwwroot\images\beard-trim.jpg
+wwwroot\images\haircut.jpg
+wwwroot\images\hair-dye.jpg
 wwwroot\images\hakkimizda.jpg
 wwwroot\images\hizmetler.jpg
 wwwroot\images\person1.jpg
@@ -14,6 +18,7 @@ wwwroot\images\person7.jpg
 wwwroot\images\person8.jpg
 wwwroot\images\randevu.jpg
 wwwroot\images\sacdene.gif
+wwwroot\images\skin-care.jpg
 wwwroot\images\slider1.jpg
 wwwroot\images\slider2.jpg
 wwwroot\images\slider3.jpg

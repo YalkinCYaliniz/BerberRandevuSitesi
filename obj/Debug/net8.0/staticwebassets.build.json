@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EiJXuQDux7qcbgTZmXI8pT1rH2Fa8T/RfyjEpQnwY8g=",
+  "Hash": "SZkYZippws+xU+e6Fv0CdUmhvzgyps+jcZMNu8J8PL8=",
   "Source": "BerberRandevuSitesi",
   "BasePath": "_content/BerberRandevuSitesi",
   "Mode": "Default",
@@ -73,11 +73,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1ilczkbtq6",
-      "Integrity": "J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=",
+      "Fingerprint": "1ou66beg0v",
+      "Integrity": "P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\hakkimizda.css"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hizmetler.css",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "css/hizmetler#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h323ykexho",
+      "Integrity": "XX+Ipsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\hizmetler.css"
     },
     {
       "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
@@ -141,6 +162,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\background.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\beard-trim.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/beard-trim#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zwfnvtu15t",
+      "Integrity": "rRxF3sW2+DH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\beard-trim.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\haircut.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/haircut#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kee780gpxp",
+      "Integrity": "rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\haircut.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\hair-dye.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/hair-dye#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kv9cpdd8cr",
+      "Integrity": "AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hair-dye.jpg"
     },
     {
       "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\hakkimizda.jpg",
@@ -393,6 +477,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\sacdene.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\skin-care.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/skin-care#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cdj2fzatgg",
+      "Integrity": "kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\skin-care.jpg"
     },
     {
       "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\slider1.jpg",
@@ -1842,7 +1947,7 @@
       ]
     },
     {
-      "Route": "css/hakkimizda.1ilczkbtq6.css",
+      "Route": "css/hakkimizda.1ou66beg0v.css",
       "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hakkimizda.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1852,7 +1957,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1159"
+          "Value": "1125"
         },
         {
           "Name": "Content-Type",
@@ -1860,11 +1965,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=\""
+          "Value": "\"P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 13:23:38 GMT"
+          "Value": "Wed, 11 Dec 2024 13:30:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1874,7 +1979,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1ilczkbtq6"
+          "Value": "1ou66beg0v"
         },
         {
           "Name": "label",
@@ -1882,7 +1987,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs="
+          "Value": "sha256-P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg="
         }
       ]
     },
@@ -1897,7 +2002,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1159"
+          "Value": "1125"
         },
         {
           "Name": "Content-Type",
@@ -1905,11 +2010,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs=\""
+          "Value": "\"P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 13:23:38 GMT"
+          "Value": "Wed, 11 Dec 2024 13:30:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1919,7 +2024,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J0WMqliJLBzyZ1Jhvnj0PGWfiYiEk/pgs8x4P4PfkOs="
+          "Value": "sha256-P22pymSke/P8hQUilXZyiTFxmWGwLIhDmDhHwPCGsdg="
+        }
+      ]
+    },
+    {
+      "Route": "css/hizmetler.css",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hizmetler.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XX+Ipsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 14:17:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX+Ipsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I="
+        }
+      ]
+    },
+    {
+      "Route": "css/hizmetler.h323ykexho.css",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\hizmetler.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XX+Ipsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 14:17:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h323ykexho"
+        },
+        {
+          "Name": "label",
+          "Value": "css/hizmetler.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX+Ipsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I="
         }
       ]
     },
@@ -2166,6 +2353,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-0B0xMBNAeuGx7n2PEpF6sLdZS8c8cHURgoGlFe5kUJ0="
+        }
+      ]
+    },
+    {
+      "Route": "images/beard-trim.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\beard-trim.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rRxF3sW2+DH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:53:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rRxF3sW2+DH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI="
+        }
+      ]
+    },
+    {
+      "Route": "images/beard-trim.zwfnvtu15t.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\beard-trim.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rRxF3sW2+DH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:53:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zwfnvtu15t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/beard-trim.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rRxF3sW2+DH0Jz8HoPxzZBHx1Y4m8D1q/hADEBmbKMI="
+        }
+      ]
+    },
+    {
+      "Route": "images/haircut.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\haircut.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY="
+        }
+      ]
+    },
+    {
+      "Route": "images/haircut.kee780gpxp.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\haircut.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kee780gpxp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/haircut.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rIw8wFHvyTRBoOmDI3DJ0TnRqxTs6P/t1ZyKa4SpTlY="
+        }
+      ]
+    },
+    {
+      "Route": "images/hair-dye.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\hair-dye.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:53:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g="
+        }
+      ]
+    },
+    {
+      "Route": "images/hair-dye.kv9cpdd8cr.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\hair-dye.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:53:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kv9cpdd8cr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hair-dye.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AJqhXBHOPbEoTX7e8r2/bTK03JLnJaT1IDj8W0PbK9g="
         }
       ]
     },
@@ -3150,6 +3583,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-rXX20RhF/ObO20pq4B6hbDHIngP0sOOT+5GNFSHLQaU="
+        }
+      ]
+    },
+    {
+      "Route": "images/skin-care.cdj2fzatgg.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\skin-care.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:53:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdj2fzatgg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/skin-care.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0="
+        }
+      ]
+    },
+    {
+      "Route": "images/skin-care.jpg",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\skin-care.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 13:53:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kIlaJfknl5EfSBK8S4ckWOjcmkVHNUzv7gb/sw/Ftt0="
         }
       ]
     },

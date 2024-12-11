@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BerberRandevuSitesi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09c86a8e50f4976d2f15313d7fe23548bcf94185")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd9d48e4aa44107def748709ec94c9c3416ecea5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BerberRandevuSitesi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BerberRandevuSitesi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
