@@ -1,0 +1,32 @@
+﻿/* Genel Ayarlar */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.sac-dene h3 {
+    color: gold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.sac-dene button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .sac-dene button:hover {
+        background-color: gold;
+        color: black;
+        transform: scale(1.05);
+    }
+
+video {
+    max-height: 300px;
+    object-fit: cover;
+    border: 2px solid white;
+}

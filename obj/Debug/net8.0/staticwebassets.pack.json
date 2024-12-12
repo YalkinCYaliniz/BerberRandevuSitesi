@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\hizmetler.css"
     },
     {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\sacdene.css",
+      "PackagePath": "staticwebassets\\css\\sacdene.css"
+    },
+    {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
@@ -99,6 +103,14 @@
     {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\images\\slider3.jpg",
       "PackagePath": "staticwebassets\\images\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\camera.js",
+      "PackagePath": "staticwebassets\\js\\camera.js"
+    },
+    {
+      "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\sacdene.js",
+      "PackagePath": "staticwebassets\\js\\sacdene.js"
     },
     {
       "Id": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\site.js",

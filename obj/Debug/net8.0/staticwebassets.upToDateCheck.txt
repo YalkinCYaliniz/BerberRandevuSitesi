@@ -1,5 +1,6 @@
 wwwroot\css\hakkimizda.css
 wwwroot\css\hizmetler.css
+wwwroot\css\sacdene.css
 wwwroot\css\styles.css
 wwwroot\favicon.ico
 wwwroot\images\background.jpg
@@ -22,6 +23,8 @@ wwwroot\images\skin-care.jpg
 wwwroot\images\slider1.jpg
 wwwroot\images\slider2.jpg
 wwwroot\images\slider3.jpg
+wwwroot\js\camera.js
+wwwroot\js\sacdene.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

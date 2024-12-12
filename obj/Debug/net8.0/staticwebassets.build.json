@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SZkYZippws+xU+e6Fv0CdUmhvzgyps+jcZMNu8J8PL8=",
+  "Hash": "e2LdZvzXrPBN/HFnPGjO4U4ZjTbbVXs9JYh9tWPG4YA=",
   "Source": "BerberRandevuSitesi",
   "BasePath": "_content/BerberRandevuSitesi",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\hizmetler.css"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\sacdene.css",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "css/sacdene#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d1tvm4is1y",
+      "Integrity": "P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sacdene.css"
     },
     {
       "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
@@ -561,6 +582,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\slider3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\camera.js",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "js/camera#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9c3yiwvwab",
+      "Integrity": "aQfbbSmkaZQv9ZErizZfVwV0TTNWQb+Apn4ClihqfCQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\camera.js"
+    },
+    {
+      "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\sacdene.js",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "js/sacdene#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9np4rohtzr",
+      "Integrity": "1QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sacdene.js"
     },
     {
       "Identity": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\site.js",
@@ -1969,7 +2032,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 13:30:44 GMT"
+          "Value": "Thu, 12 Dec 2024 18:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2014,7 +2077,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 13:30:44 GMT"
+          "Value": "Thu, 12 Dec 2024 18:22:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2107,6 +2170,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-XX+Ipsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I="
+        }
+      ]
+    },
+    {
+      "Route": "css/sacdene.css",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\sacdene.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:37:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/sacdene.d1tvm4is1y.css",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\css\\sacdene.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:37:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d1tvm4is1y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/sacdene.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ="
         }
       ]
     },
@@ -3911,6 +4056,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-X/Xh4ige92YGcy7obw9zy8B2ONgGCWAfvP/RFnHsFQw="
+        }
+      ]
+    },
+    {
+      "Route": "js/camera.9c3yiwvwab.js",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\camera.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aQfbbSmkaZQv9ZErizZfVwV0TTNWQb+Apn4ClihqfCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:40:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9c3yiwvwab"
+        },
+        {
+          "Name": "label",
+          "Value": "js/camera.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aQfbbSmkaZQv9ZErizZfVwV0TTNWQb+Apn4ClihqfCQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/camera.js",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\camera.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aQfbbSmkaZQv9ZErizZfVwV0TTNWQb+Apn4ClihqfCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:40:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aQfbbSmkaZQv9ZErizZfVwV0TTNWQb+Apn4ClihqfCQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/sacdene.9np4rohtzr.js",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\sacdene.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 19:40:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9np4rohtzr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/sacdene.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY="
+        }
+      ]
+    },
+    {
+      "Route": "js/sacdene.js",
+      "AssetFile": "C:\\Users\\yalki\\OneDrive\\Masaüstü\\BerberSalonu\\BerberRandevuSitesi\\BerberRandevuSitesi\\wwwroot\\js\\sacdene.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 19:40:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY="
         }
       ]
     },
