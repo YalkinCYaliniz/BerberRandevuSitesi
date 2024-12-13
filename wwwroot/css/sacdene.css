@@ -1,32 +1,60 @@
-﻿/* Genel Ayarlar */
-body {
-    background-color: black;
-    color: white;
+﻿body {
+    background-color: #1a1a1a;
+    color: #fff;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.sac-dene h3 {
-    color: gold;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.sac-dene button {
+h1 {
+    text-align: center;
+    color: #f4b400;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input, select, button {
     width: 100%;
-    font-size: 1rem;
     padding: 10px;
+    margin-bottom: 15px;
+    border: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #3a3a3a;
+    color: #fff;
 }
 
-    .sac-dene button:hover {
-        background-color: gold;
-        color: black;
-        transform: scale(1.05);
+button {
+    background-color: #f4b400;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #e0a800;
     }
 
-video {
-    max-height: 300px;
-    object-fit: cover;
-    border: 2px solid white;
+.error {
+    background-color: #e63946;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.result img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
 }

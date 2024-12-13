@@ -36,17 +36,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h323ykexho"},{"Name":"integrity","Value":"sha256-XX\u002BIpsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/hizmetler.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1710"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XX\u002BIpsb4pt5oa/4N05F49tPJJzZgdDFuGGkOE78OB1I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 14:17:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/sacdene.0q4c0xgd01.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sacdene.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0q4c0xgd01"},{"Name":"integrity","Value":"sha256-GPkpK/uguUz92Apgb1R\u002BhG1OXPcDdqgFBe6gWq1JmrA="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/sacdene.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1016"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GPkpK/uguUz92Apgb1R\u002BhG1OXPcDdqgFBe6gWq1JmrA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 12:30:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/sacdene.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sacdene.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"606"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 18:37:42 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/sacdene.d1tvm4is1y.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\sacdene.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d1tvm4is1y"},{"Name":"integrity","Value":"sha256-P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ="},{"Name":"label","Value":"_content/BerberRandevuSitesi/css/sacdene.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"606"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P9VT1EhrhgjpdL0PehctTo3DzJxArDcJ3tVvxmr8stQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 18:37:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GPkpK/uguUz92Apgb1R\u002BhG1OXPcDdqgFBe6gWq1JmrA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1016"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GPkpK/uguUz92Apgb1R\u002BhG1OXPcDdqgFBe6gWq1JmrA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 12:30:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
@@ -324,17 +324,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aQfbbSmkaZQv9ZErizZfVwV0TTNWQb\u002BApn4ClihqfCQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"964"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aQfbbSmkaZQv9ZErizZfVwV0TTNWQb\u002BApn4ClihqfCQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 18:40:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/js/sacdene.9np4rohtzr.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sacdene.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/js/SacDeneModel.e2lol33c89.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\SacDeneModel.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9np4rohtzr"},{"Name":"integrity","Value":"sha256-1QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY="},{"Name":"label","Value":"_content/BerberRandevuSitesi/js/sacdene.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2036"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00221QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 19:40:33 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e2lol33c89"},{"Name":"integrity","Value":"sha256-ptHv\u002BE9b7KxigcCWRHLE0aGOTRBFZ\u002B2JJR41tYxmpDo="},{"Name":"label","Value":"_content/BerberRandevuSitesi/js/SacDeneModel.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2191"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ptHv\u002BE9b7KxigcCWRHLE0aGOTRBFZ\u002B2JJR41tYxmpDo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 11:59:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/js/sacdene.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sacdene.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/js/SacDeneModel.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\SacDeneModel.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2036"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00221QXzhoo9VxojFcSxbYY1Zz6mLNpnYr8Km4aMrVNqbWY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 19:40:33 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ptHv\u002BE9b7KxigcCWRHLE0aGOTRBFZ\u002B2JJR41tYxmpDo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2191"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ptHv\u002BE9b7KxigcCWRHLE0aGOTRBFZ\u002B2JJR41tYxmpDo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 11:59:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BerberRandevuSitesi/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

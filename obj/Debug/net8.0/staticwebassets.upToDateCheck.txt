@@ -24,7 +24,7 @@ wwwroot\images\slider1.jpg
 wwwroot\images\slider2.jpg
 wwwroot\images\slider3.jpg
 wwwroot\js\camera.js
-wwwroot\js\sacdene.js
+wwwroot\js\SacDeneModel.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
