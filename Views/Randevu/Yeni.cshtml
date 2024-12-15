@@ -1,0 +1,74 @@
+@model RandevuViewModel
+@{
+    ViewData["Title"] = "Randevu Al";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Randevu Al</h2>
+    <form asp-action="Yeni" method="post">
+        <!-- Şube Seçimi -->
+        <div class="form-group mb-3">
+            <label for="SubeId" class="form-label">Şube Seçimi</label>
+            <select asp-for="SubeId" asp-items="new SelectList(Model.Subeler, "Id", "Ad")
+                    class="form-select" id="SubeId" required>
+                <option value="" disabled selected>Şube seçiniz...</option>
+            </select>
+        </div>
+
+        <!-- Hizmet Seçimi -->
+        <div class="form-group mb-3">
+            <label for="HizmetId" class="form-label">Hizmet Seçimi</label>
+            <select asp-for="HizmetId" asp-items="new SelectList(Model.Hizmetler, "Id", "Ad")" 
+                    class="form-select" id="HizmetId" required>
+                <option value="" disabled selected>Hizmet seçiniz...</option>
+            </select>
+        </div>
+
+        <!-- Tarih Seçimi -->
+        <div class="form-group mb-3">
+            <label for="RandevuSaati" class="form-label">Tarih Seçimi</label>
+            <input type="date" asp-for="RandevuSaati" 
+                   class="form-control" id="Tarih" 
+                   required min="@DateTime.Now.ToString("yyyy-MM-dd")">
+        </div>
+
+        <!-- Saat Seçimi -->
+        <div class="form-group mb-3">
+            <label for="Saat" class="form-label">Saat Seçimi</label>
+            <select asp-for="RandevuSaati" 
+                    class="form-select" id="Saat" required>
+                <option value="" disabled selected>Saat seçiniz...</option>
+                <option value="09:00">09:00</option>
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+            </select>
+        </div>
+
+        <!-- Çalışan Seçimi -->
+        <div class="form-group mb-3">
+            <label for="CalisanId" class="form-label">Çalışan Seçimi</label>
+            <select asp-for="CalisanId" 
+                    class="form-select" id="CalisanId" required>
+                <option value="" disabled selected>Çalışan seçiniz...</option>
+                @if (Model.Calisanlar != null && Model.Calisanlar.Count > 0)
+                {
+                    foreach (var calisan in Model.Calisanlar)
+                    {
+                        <option value="@calisan.Id">@calisan.AdSoyad</option>
+                    }
+                }
+            </select>
+        </div>
+
+        <!-- Gönder Butonu -->
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary w-100">Randevu Al</button>
+        </div>
+    </form>
+</div>
