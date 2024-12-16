@@ -105,12 +105,8 @@
       "PackagePath": "staticwebassets/images/slider3.jpg"
     },
     {
-      "Id": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/SacDeneModel.js",
-      "PackagePath": "staticwebassets/js/SacDeneModel.js"
-    },
-    {
-      "Id": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/camera.js",
-      "PackagePath": "staticwebassets/js/camera.js"
+      "Id": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/apiIntegration.js",
+      "PackagePath": "staticwebassets/js/apiIntegration.js"
     },
     {
       "Id": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/site.js",

@@ -1,60 +1,36 @@
 ﻿body {
-    background-color: #1a1a1a;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #000; /* Arka plan rengi siyah */
+  color: gold; /* Yazı rengi altın */
+  font-family: "Arial", sans-serif;
 }
 
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #2c2c2c;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+h2 {
+  font-weight: bold;
+  color: gold; /* Başlık rengi */
 }
 
-h1 {
-    text-align: center;
-    color: #f4b400;
+.card {
+  background-color: #1a1a1a; /* Form arka planı için koyu ton */
+  border: 1px solid gold; /* Altın renkli çerçeve */
 }
 
-label {
-    display: block;
-    margin: 15px 0 5px;
+.form-label {
+  color: gold; /* Etiket yazı rengi */
 }
 
-input, select, button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #3a3a3a;
-    color: #fff;
+.form-select,
+.form-control {
+  background-color: #1a1a1a; /* Input arka plan rengi */
+  color: gold; /* Input yazı rengi */
+  border: 1px solid gold; /* Çerçeve */
 }
 
-button {
-    background-color: #f4b400;
-    cursor: pointer;
+.btn-warning {
+  background-color: gold;
+  color: #000; /* Düğme metin rengi */
+  border: none;
 }
 
-    button:hover {
-        background-color: #e0a800;
-    }
-
-.error {
-    background-color: #e63946;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 20px;
-}
-
-.result img {
-    width: 100%;
-    border-radius: 8px;
-    margin-top: 20px;
+.btn-warning:hover {
+  background-color: #ffc107; /* Hover durumunda açık altın */
 }

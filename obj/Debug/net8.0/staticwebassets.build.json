@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wiour750/6Noqf5RdbZBk4XHvMuNjXMwlP+4t3PT/Fc=",
+  "Hash": "QkV5tX0C1GIGj7mFbMrVlPezTlPgt0qCM9zFTT+RG7I=",
   "Source": "BerberRandevuSitesi",
   "BasePath": "_content/BerberRandevuSitesi",
   "Mode": "Default",
@@ -530,12 +530,12 @@
       "OriginalItemSpec": "wwwroot/images/slider3.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/camera.js",
+      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/apiIntegration.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
       "BasePath": "_content/BerberRandevuSitesi",
-      "RelativePath": "js/camera.js",
+      "RelativePath": "js/apiIntegration.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -546,26 +546,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/camera.js"
-    },
-    {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/SacDeneModel.js",
-      "SourceId": "BerberRandevuSitesi",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
-      "BasePath": "_content/BerberRandevuSitesi",
-      "RelativePath": "js/SacDeneModel.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/SacDeneModel.js"
+      "OriginalItemSpec": "wwwroot/js/apiIntegration.js"
     },
     {
       "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/site.js",

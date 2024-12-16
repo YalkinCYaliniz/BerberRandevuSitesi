@@ -64,3 +64,6 @@ C:/Users/yalki/OneDrive/Masaüstü/BerberSalonu/BerberRandevuSitesi/BerberRandev
 /Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/BerberRandevuSitesi.pdb
 /Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/BerberRandevuSitesi.genruntimeconfig.cache
 /Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/ref/BerberRandevuSitesi.dll
+/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/BerberRandevuSitesi.csproj.AssemblyReference.cache
+/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/BerberRa.03A13EB6.Up2Date
