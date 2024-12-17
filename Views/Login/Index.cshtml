@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "Giriş Yap";
 }
-
+@model Musteri
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,16 +15,18 @@
     <div class="login-container d-flex justify-content-center align-items-center vh-100">
         <div class="login-card p-4 shadow-lg rounded">
             <h2 class="text-center mb-4">Giriş Yap</h2>
-            <form method="post" action="/Login">
+            <form  asp-controller="Login" asp-action="Index">
                 <!-- E-posta -->
                 <div class="mb-3">
-                    <label for="email" class="form-label">E-posta</label>
-                    <input type="email" id="email" name="email" class="form-control" placeholder="E-posta adresinizi girin" required>
+                    <label asp-for="mailadress" class="control-label"></label>
+                    <input asp-for="mailadress" class="form-control"/>
+                    <span asp-validation-for="mailadress" class="text-danger"></span>
                 </div>
                 <!-- Şifre -->
                 <div class="mb-3">
-                    <label for="password" class="form-label">Şifre</label>
-                    <input type="password" id="password" name="password" class="form-control" placeholder="Şifrenizi girin" required>
+                    <label asp-for="sifre" class="control-label"></label>
+                    <input asp-for="sifre" class="form-control"/>
+                    <span asp-validation-for="sifre" class="text-danger"></span>
                 </div>
 
                 <!-- Butonlar: Giriş Yap ve Kayıt Ol -->
@@ -37,3 +39,9 @@
     </div>
 </body>
 </html>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
