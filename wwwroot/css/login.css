@@ -1,0 +1,63 @@
+/* Arka Plan Rengi */
+body {
+    background-color: black; /* Arka plan siyah */
+    font-family: Arial, sans-serif;
+}
+
+/* Login Kart Tasarımı */
+.login-container {
+    background-color: black; /* Arka plan siyah */
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px; /* Kart genişliği */
+    background-color: #ffffff; /* Beyaz kart */
+    border: 1px solid #ddd;
+}
+
+.login-card h2 {
+    font-weight: 700;
+    color: #343a40; /* Koyu gri */
+}
+
+/* Input Alanları */
+.form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+/* Giriş Yap Butonu */
+.btn-dark {
+    background-color: #212529;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #495057; /* Hover rengi */
+}
+
+/* Kayıt Ol Butonu */
+.btn-outline-dark {
+    color: #212529;
+    border-color: #212529;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #212529;
+    color: #fff;
+}
+
+/* Şifreyi Unuttum Linki */
+a.text-decoration-none {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+a.text-decoration-none:hover {
+    color: #0056b3; /* Link hover rengi */
+}
