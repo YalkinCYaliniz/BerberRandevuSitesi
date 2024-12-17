@@ -2,25 +2,26 @@ using System.ComponentModel.DataAnnotations;
 
 public class Musteri
 {
-    public int Id { get; set; }
+    [Key]
+    public int id { get; set; }
     
     [Display(Name ="Ad")]
     [Required(ErrorMessage = "Lütfen Adınızı Giriniz")]
-    public string Ad { get; set; }
+    public string ad { get; set; }
     
     [Display(Name ="Soyad")]
     [Required(ErrorMessage ="Lütfen Soyadınızı Giriniz.")]
-    public string soyAd { get; set; }
+    public string soyad { get; set; }
     
     [Display(Name ="Yaş")]
     [Required(ErrorMessage ="Lütfen Yaş Bilgisini Giriniz")]
     [Range(5,80,ErrorMessage ="Yaş Aralığı 5-80 Olmalıdır.")]
-    public string Yas { get; set; }
-   
+    public int yas { get; set; }
+    
     [Display(Name ="Telefon Numarası")]
     [Phone(ErrorMessage ="Lütfen Geçerli Bir Telefon Numarası Giriniz.")]
     [RegularExpression(@"^5\d{9}$", ErrorMessage = "Telefon numarası 5 ile başlamalı ve 10 haneli olmalıdır.")]
-    public string? telefonNo { get; set; }
+    public string? telefonno { get; set; }
     
     [Display(Name ="Eposta")]
     [EmailAddress(ErrorMessage ="Lütfen Geçerli Bir Eposta Adresi Giriniz.")]
@@ -29,6 +30,7 @@ public class Musteri
 
     [Display(Name ="Sifre")]
     [Required(ErrorMessage ="Lütfen Şifre Giriniz")]
+    
     public string sifre {get; set;}
 
 }

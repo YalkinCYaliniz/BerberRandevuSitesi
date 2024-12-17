@@ -2,6 +2,7 @@
     ViewData["Title"] = "Kayıt Ol";
 }
 @model Musteri
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,30 +17,30 @@
         <div class="login-card p-4 shadow-lg rounded">
             <h2 class="text-center mb-4">Kayıt Ol</h2>
             
-            <form  asp-controller="Login" asp-action="Index">
+            <form asp-controller="Register" asp-action="Index">
                 <!-- Ad -->
                 <div class="mb-3">
-                    <label asp-for="Ad" class="control-label"></label>
-                    <input asp-for="Ad" class="form-control"/>
-                    <span asp-validation-for="Ad" class="text-danger"></span>
+                    <label asp-for="ad" class="control-label"></label>
+                    <input asp-for="ad" class="form-control"/>
+                    <span asp-validation-for="ad" class="text-danger"></span>
                 </div>
                 <!-- Soyad -->
                 <div class="mb-3">
-                    <label asp-for="soyAd" class="control-label"></label>
-                    <input asp-for="soyAd" class="form-control"/>
-                    <span asp-validation-for="soyAd" class="text-danger"></span>
+                    <label asp-for="soyad" class="control-label"></label>
+                    <input asp-for="soyad" class="form-control"/>
+                    <span asp-validation-for="soyad" class="text-danger"></span>
                 </div>
                 <!-- Yaş -->
                 <div class="mb-3">
-                     <label asp-for="Yas" class="control-label"></label>
-                    <input asp-for="Yas" class="form-control"/>
-                    <span asp-validation-for="Yas" class="text-danger"></span>
+                     <label asp-for="yas" class="control-label"></label>
+                    <input asp-for="yas" class="form-control"/>
+                    <span asp-validation-for="yas" class="text-danger"></span>
                 </div>
                 <!-- Telefon Numarası -->
                 <div class="mb-3">
-                    <label asp-for="telefonNo" class="control-label"></label>
-                    <input asp-for="telefonNo" class="form-control"/>
-                    <span asp-validation-for="telefonNo" class="text-danger"></span>
+                    <label asp-for="telefonno" class="control-label"></label>
+                    <input asp-for="telefonno" class="form-control"/>
+                    <span asp-validation-for="telefonno" class="text-danger"></span>
                     <small class="form-text text-muted">Format: (5XX) XXX XX XX</small>
                 </div>
                 <!-- E-posta -->
@@ -51,7 +52,7 @@
                 <!-- Şifre -->
                 <div class="mb-3">
                     <label asp-for="sifre" class="control-label"></label>
-                    <input asp-for="sifre" class="form-control"/>
+                    <input type ="password" asp-for="sifre" class="form-control"/>
                     <span asp-validation-for="sifre" class="text-danger"></span>
                 </div>
 
@@ -71,3 +72,4 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
