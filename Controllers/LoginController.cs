@@ -1,49 +1,53 @@
-using BerberRandevuSitesi.Data;
 using Microsoft.AspNetCore.Mvc;
+using BerberRandevuSitesi.Data;
+using BerberRandevuSitesi.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace BerberRandevuSitesi.Controllers
 {
     public class LoginController : Controller
     {
+        private readonly ApplicationDbContext _dbContext;
 
-        private readonly ApplicationDbContext _dbContext; // DbContext alanı
-
-        // Constructor: Dependency Injection ile DbContext'i alıyoruz
         public LoginController(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }
+
+        [HttpGet]
         public IActionResult Index()
         {
-            return View(); // Ana sayfa
+            return View();
         }
 
         [HttpPost]
-        public IActionResult Giris(Musteri musteri)
+        public IActionResult Index(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
-                // Veritabanında kullanıcıyı sorgula
-                var user = _dbContext.musteri
-                                     .FirstOrDefault(u => u.mailadress == musteri.mailadress && u.sifre == musteri.sifre);
+                // Admin kontrolü
+                var admin = _dbContext.admin.FirstOrDefault(a => a.mailadress == model.mailadress);
+                if (admin != null && admin.sifre == model.sifre)
+                {
+                    // Admin başarıyla giriş yaptı
+                    return RedirectToAction("Index", "Hakkimizda"); // Örneğin Hakkımızda sayfasına yönlendirilebilir
+                }
 
-                if (user != null)
+                // Müşteri kontrolü
+                var musteri = _dbContext.musteri.FirstOrDefault(m => m.mailadress == model.mailadress);
+                if (musteri != null && musteri.sifre == model.sifre)
                 {
-                    // Kullanıcı bulundu, başarılı giriş
-                    // Örneğin, session veya cookie ile giriş bilgisini tutabilirsiniz
-                    // Şu an sadece ana menüye yönlendiriyoruz
-                    return RedirectToAction("Index", "Home"); // Ana sayfaya yönlendir
+                    // Müşteri başarıyla giriş yaptı
+                    return RedirectToAction("Index", "Home"); // Ana sayfaya yönlendirilebilir
                 }
-                else
-                {
-                    // Kullanıcı bulunamadı, hata mesajı
-                    ModelState.AddModelError(string.Empty, "Geçersiz e-posta veya şifre.");
-                    return RedirectToAction("Index", "Login"); // Ana sayfaya yönlendir
-                }
+
+                // Eğer kullanıcı bulunamadıysa
+                ModelState.AddModelError("", "Geçersiz e-posta veya şifre.");
+                return View();
             }
 
-            // Model geçerli değilse tekrar view'a dön
-            return RedirectToAction("Index", "Login"); // Ana sayfaya yönlendir
+            return View();
         }
     }
 }

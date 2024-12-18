@@ -19,6 +19,7 @@ public class Musteri
     public int yas { get; set; }
     
     [Display(Name ="Telefon Numarası")]
+    [Required(ErrorMessage ="Lütfen Telefon Numaranızı Giriniz")]
     [Phone(ErrorMessage ="Lütfen Geçerli Bir Telefon Numarası Giriniz.")]
     [RegularExpression(@"^5\d{9}$", ErrorMessage = "Telefon numarası 5 ile başlamalı ve 10 haneli olmalıdır.")]
     public string? telefonno { get; set; }
