@@ -1,11 +1,11 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
-public class Musteri
+public class Musteri : IdentityUser
 {
-    [Key]
-    public int id { get; set; }
+
     
-    [Display(Name ="Ad")]
+    [Display(Name ="Ad")]+
     [Required(ErrorMessage = "Lütfen Adınızı Giriniz")]
     public string ad { get; set; }
     
@@ -35,3 +35,4 @@ public class Musteri
     public string sifre {get; set;}
 
 }
+

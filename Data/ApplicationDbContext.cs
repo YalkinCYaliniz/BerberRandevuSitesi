@@ -1,14 +1,15 @@
-using Microsoft.EntityFrameworkCore;
 using BerberRandevuSitesi.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace BerberRandevuSitesi.Data
 {
-    public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
-        public DbSet<Musteri> musteri { get; set; }
-        public DbSet<Admin> admin { get; set; }
-
-        
-        // Diğer DbSet'lerinizi burada ekleyebilirsiniz
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {   
+        }
     }
 }

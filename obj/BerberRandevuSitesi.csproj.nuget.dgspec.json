@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\WEB PROGRAMLAMA PROJE WITH YALKIN\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj": {}
+    "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\WEB PROGRAMLAMA PROJE WITH YALKIN\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj": {
+    "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\WEB PROGRAMLAMA PROJE WITH YALKIN\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
+        "projectUniqueName": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
         "projectName": "BerberRandevuSitesi",
-        "projectPath": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\WEB PROGRAMLAMA PROJE WITH YALKIN\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
+        "projectPath": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
         "packagesPath": "C:\\Users\\ismlf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\WEB PROGRAMLAMA PROJE WITH YALKIN\\BerberRandevuSitesi\\obj\\",
+        "outputPath": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,23 +50,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
