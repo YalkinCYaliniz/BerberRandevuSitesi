@@ -18,7 +18,7 @@ document.getElementById("uploadButton").addEventListener("click", async () => {
         method: "POST",
         headers: {
           "x-rapidapi-key":
-            "b833913418msh34293360c392990p168517jsnfa01e09de061",
+            "ea5d1d5b51msh8755a324abcb732p1a9d87jsn75974c88ab64",
           "x-rapidapi-host": "hairstyle-changer.p.rapidapi.com",
         },
         body: formData,

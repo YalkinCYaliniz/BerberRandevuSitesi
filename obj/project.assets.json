@@ -2437,11 +2437,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
+      "projectUniqueName": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\WEB PROJESİ\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
       "projectName": "BerberRandevuSitesi",
-      "projectPath": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
+      "projectPath": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\WEB PROJESİ\\BerberRandevuSitesi\\BerberRandevuSitesi.csproj",
       "packagesPath": "C:\\Users\\ismlf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\BerberRandevuSitesi\\obj\\",
+      "outputPath": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\WEB PROJESİ\\BerberRandevuSitesi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
