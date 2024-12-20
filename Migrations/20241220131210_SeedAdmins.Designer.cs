@@ -3,6 +3,7 @@ using System;
 using BerberRandevuSitesi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BerberRandevuSitesi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241220131210_SeedAdmins")]
+    partial class SeedAdmins
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -141,15 +144,15 @@ namespace BerberRandevuSitesi.Migrations
                         {
                             Id = "admin1-id",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e7d8dba2-0eb6-403d-a189-712490494394",
+                            ConcurrencyStamp = "af2c9c81-c15e-4894-9c52-e7220b398200",
                             Email = "B221210101@sakarya.edu.tr",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "B221210101@SAKARYA.EDU.TR",
                             NormalizedUserName = "B221210101@SAKARYA.EDU.TR",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH+yuqEPzg2egAKx96m4cMyVd0cha0u2KlY0ZLvudASlTv3kK2TdRnAfvipAGwIK7Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGXjhzEVuNjYhxjg2gwBXOUBo8IC4vRdKKekew4djDBfrnNt9gu+7FVyIWSCf8yKMQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "563a84f4-3fe2-4a94-9c37-3c08cef4d6cb",
+                            SecurityStamp = "3b274578-d0d9-4d06-991a-c9ec2913d03c",
                             TwoFactorEnabled = false,
                             UserName = "B221210101@sakarya.edu.tr"
                         },
@@ -157,15 +160,15 @@ namespace BerberRandevuSitesi.Migrations
                         {
                             Id = "admin2-id",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0ec2fb91-2777-43f5-b3d0-935ccd06c2a9",
+                            ConcurrencyStamp = "9943436e-62f9-47da-ae68-90a82093d459",
                             Email = "B211210056@sakarya.edu.tr",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "B211210056@SAKARYA.EDU.TR",
                             NormalizedUserName = "B211210056@SAKARYA.EDU.TR",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHvLA7uzCFBqzTP+X6amPoC/ePw5qD4yM0fPSillhqL7aYasbW8FTjWsOiAyY9Qmfw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJtx0fos3HOyovpLW3ZVn4SVUP/4gK/a1EQsUtqYGgm/o+hqTvVPsNgGIGZ4n8AcsQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0152f6d2-f4d4-4d4e-838c-b32933634464",
+                            SecurityStamp = "410b5c0d-268b-4cfc-ac3f-da999922953c",
                             TwoFactorEnabled = false,
                             UserName = "B211210056@sakarya.edu.tr"
                         });

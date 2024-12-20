@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ismlf\OneDrive\Masaüstü\WEB PROJESİ\BerberRandevuSitesi
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ismlf/OneDrive/Masaüstü/WEB PROJESİ/BerberRandevuSitesi/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ismlf/OneDrive/Masaüstü/WEB PROJESİ/BerberRandevuSitesi/Views/Hakkimizda/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltaXpkYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -11,5 +11,10 @@ namespace BerberRandevuSitesi.Data
             : base(options)
         {   
         }
-    }
+   
+
+    
+
+
+ }
 }

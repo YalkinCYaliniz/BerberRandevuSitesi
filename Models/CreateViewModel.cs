@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace BerberRandevuSitesi.Models
 {
-    public class CreateViewModel
+    public class CreateViewModel : IdentityUser
     {
     [Display(Name ="Ad")]
     [Required(ErrorMessage = "Lütfen Adınızı Giriniz")]
@@ -15,11 +16,6 @@ namespace BerberRandevuSitesi.Models
     [Display(Name ="Soyad")]
     [Required(ErrorMessage ="Lütfen Soyadınızı Giriniz.")]
     public string soyad { get; set; }
-    
-    [Display(Name ="Yaş")]
-    [Required(ErrorMessage ="Lütfen Yaş Bilgisini Giriniz")]
-    [Range(5,80,ErrorMessage ="Yaş Aralığı 5-80 Olmalıdır.")]
-    public int yas { get; set; }
     
     [Display(Name ="Telefon Numarası")]
     [Required(ErrorMessage ="Lütfen Telefon Numaranızı Giriniz")]

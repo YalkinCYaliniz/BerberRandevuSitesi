@@ -1,3 +1,23 @@
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager 
+@inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <span class="nav-link">Hoşgeldiniz, @UserManager.GetUserName(User)!</span>
+    </li>
+    <li class="nav-item">
+        @using (Html.BeginForm("Logout", "Login", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <button type="submit" class="nav-link btn btn-link" style="border:none; background: none;">Çıkış Yap</button>
+        }
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-controller="Login" asp-action="Index">Giriş Yap</a>
+    </li>
+}

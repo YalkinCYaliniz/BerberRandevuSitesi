@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "Giriş Yap";
 }
-@model CreateViewModel
+@model LoginViewModel
 @using BerberRandevuSitesi.Models
 
 <!DOCTYPE html>
@@ -29,6 +29,12 @@
                     <label asp-for="sifre" class="control-label"></label>
                     <input type ="password" asp-for="sifre" class="form-control"/>
                     <span asp-validation-for="sifre" class="text-danger"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input  asp-for="rememberme" class="form-check-input"/>
+                    <label asp-for="rememberme" class="form-check-label"></label>
+                    
                 </div>
 
                 <!-- Butonlar: Giriş Yap ve Kayıt Ol -->
