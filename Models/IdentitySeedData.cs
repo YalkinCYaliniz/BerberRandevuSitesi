@@ -1,40 +1,71 @@
-
-using BerberRandevuSitesi.Data;
+using BerberRandevuSitesi.Models;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 
-namespace BerberRandevuSitesi.Models
+public class IdentitySeedData
 {
+    public static async Task Initialize(IServiceProvider serviceProvider, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+{
+    var roleName = "Admin";
+    var roleExist = await roleManager.RoleExistsAsync(roleName);
+    if (!roleExist)
+    {
+        var roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
+    }
 
-    
-    public class IdentitySeedData{
-    private const string adminUser = "Admin";
-    private const string adminPassword = "sau";
-        public static async void IdentityTestUser(IApplicationBuilder app){
-
-        var context = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<ApplicationDbContext>();
-
-        if(context.Database.GetAppliedMigrations().Any()){
-
-            context.Database.Migrate();
+    var user3 = await userManager.FindByEmailAsync("B221210101@sakarya.edu.tr");
+    if (user3 == null)
+    {
+        user3 = new ApplicationUser
+        {
+            UserName = "Admin1",  // Admin kullanıcı adı farklı olmalı
+            Email = "B221210101@sakarya.edu.tr",
+            PhoneNumber = "5320580805",
+            yas = 20
+        };
+        
+        // Admin için özel şifre (sau) kullanılıyor
+        var result = await userManager.CreateAsync(user3, "sau");  
+        if (result.Succeeded)
+        {
+            await userManager.AddToRoleAsync(user3, roleName);
         }
-
-        var userManager = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
-        var user =  await userManager.FindByNameAsync(adminUser);
-
-        if(user == null) {
-
-            user = new IdentityUser{
-                UserName = adminUser,
-                Email = "B221210101@sakarya.edu.tr",
-                PhoneNumber = "5320580805"
-
-            };
-            await userManager.CreateAsync(user,adminPassword);
+        else
+        {
+            // Hata mesajını loglama
+            foreach (var error in result.Errors)
+            {
+                Console.WriteLine(error.Description);
+            }
         }
     }
 
+    var user4 = await userManager.FindByEmailAsync("B211210056@sakarya.edu.tr");
+    if (user4 == null)
+    {
+        user4 = new ApplicationUser
+        {
+            UserName = "Admin2",  // Admin kullanıcı adı farklı olmalı
+            Email = "B211210056@sakarya.edu.tr",
+            PhoneNumber = "5330911884",
+            yas = 23
+        };
+        
+        // Admin için özel şifre (sau) kullanılıyor
+        var result = await userManager.CreateAsync(user4, "sau");  
+        if (result.Succeeded)
+        {
+            await userManager.AddToRoleAsync(user4, roleName);
+        }
+        else
+        {
+            // Hata mesajını loglama
+            foreach (var error in result.Errors)
+            {
+                Console.WriteLine(error.Description);
+            }
+        }
     }
-    
+}
+
 }
 

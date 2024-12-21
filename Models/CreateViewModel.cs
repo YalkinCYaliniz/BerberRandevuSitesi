@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace BerberRandevuSitesi.Models
 {
-    public class CreateViewModel : IdentityUser
+    public class CreateViewModel
     {
     [Display(Name ="Ad")]
     [Required(ErrorMessage = "Lütfen Adınızı Giriniz")]
@@ -16,6 +16,11 @@ namespace BerberRandevuSitesi.Models
     [Display(Name ="Soyad")]
     [Required(ErrorMessage ="Lütfen Soyadınızı Giriniz.")]
     public string soyad { get; set; }
+
+    [Display(Name ="Yaş")]
+    [Required(ErrorMessage ="Lütfen Yaşınızı Giriniz.")]
+    [Range(5,89,ErrorMessage ="Lütfen 5 ile 89 Arasında Bir Yaş Giriniz!")]
+    public int yas { get; set; }
     
     [Display(Name ="Telefon Numarası")]
     [Required(ErrorMessage ="Lütfen Telefon Numaranızı Giriniz")]

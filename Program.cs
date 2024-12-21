@@ -12,7 +12,17 @@ var connectionString = builder.Configuration.GetConnectionString("DbConnection")
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(connectionString));
 
 
-builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    options.Password.RequireDigit = false;  // Rakamsız şifreye izin verilmez
+    options.Password.RequireLowercase = false;  // Küçük harf zorunlu
+    options.Password.RequireNonAlphanumeric = false;  // Özel karakter zorunlu
+    options.Password.RequireUppercase = false;  // Büyük harf zorunlu
+    options.Password.RequiredLength = 0;  // Şifre uzunluğu en az 6 karakter olmalı
+})
+.AddEntityFrameworkStores<ApplicationDbContext>()
+.AddDefaultTokenProviders();
+
 
 var app = builder.Build();
 
@@ -31,10 +41,19 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    await IdentitySeedData.Initialize(services, userManager, roleManager);
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    dbContext.Database.Migrate();
+}
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-IdentitySeedData.IdentityTestUser(app);
 
 app.Run();

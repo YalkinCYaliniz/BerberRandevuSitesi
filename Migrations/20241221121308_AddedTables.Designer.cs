@@ -3,6 +3,7 @@ using System;
 using BerberRandevuSitesi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BerberRandevuSitesi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241221121308_AddedTables")]
+    partial class AddedTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -90,21 +93,6 @@ namespace BerberRandevuSitesi.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("BerberRandevuSitesi.Models.CalisanYetenek", b =>
-                {
-                    b.Property<int>("CalisanId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("HizmetId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("CalisanId", "HizmetId");
-
-                    b.HasIndex("HizmetId");
-
-                    b.ToTable("CalisanYetenekler");
-                });
-
             modelBuilder.Entity("BerberRandevuSitesi.Models.Calisanlar", b =>
                 {
                     b.Property<int>("CalisanId")
@@ -117,8 +105,9 @@ namespace BerberRandevuSitesi.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("Maas")
-                        .HasColumnType("integer");
+                    b.Property<string>("Pozisyon")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Soyadi")
                         .IsRequired()
@@ -335,25 +324,6 @@ namespace BerberRandevuSitesi.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("BerberRandevuSitesi.Models.CalisanYetenek", b =>
-                {
-                    b.HasOne("BerberRandevuSitesi.Models.Calisanlar", "Calisan")
-                        .WithMany("CalisanYetenekler")
-                        .HasForeignKey("CalisanId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BerberRandevuSitesi.Models.Hizmetler", "Hizmet")
-                        .WithMany()
-                        .HasForeignKey("HizmetId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Calisan");
-
-                    b.Navigation("Hizmet");
-                });
-
             modelBuilder.Entity("BerberRandevuSitesi.Models.Calisanlar", b =>
                 {
                     b.HasOne("BerberRandevuSitesi.Models.Subeler", "Sube")
@@ -441,11 +411,6 @@ namespace BerberRandevuSitesi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Calisanlar", b =>
-                {
-                    b.Navigation("CalisanYetenekler");
                 });
 
             modelBuilder.Entity("BerberRandevuSitesi.Models.Subeler", b =>

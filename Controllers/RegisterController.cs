@@ -7,8 +7,8 @@ namespace BerberRandevuSitesi.Controllers
 {
     public class RegisterController: Controller
     {
-        private readonly UserManager<IdentityUser> _userManager;
-        public RegisterController(UserManager<IdentityUser> userManager)
+        private readonly UserManager<ApplicationUser> _userManager;
+        public RegisterController(UserManager<ApplicationUser> userManager)
         {
             _userManager = userManager;
         }
@@ -63,11 +63,12 @@ public async Task<IActionResult> IndexAsync(CreateViewModel model)
             // Eğer hata yoksa, yeni kullanıcı oluştur
             if (ModelState.ErrorCount == 0)
             {
-                var user = new IdentityUser
+                var user = new ApplicationUser
                 {
                     UserName = model.mailadress.Split('@')[0],
                     Email = model.mailadress,
-                    PhoneNumber = model.telefonno
+                    PhoneNumber = model.telefonno,
+                    yas = model.yas
                     
                 };
 

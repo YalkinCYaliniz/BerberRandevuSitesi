@@ -13,10 +13,10 @@ namespace BerberRandevuSitesi.Controllers
             
 
         
-        private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public LoginController(SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
+        public LoginController(SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager)
         {
             _signInManager = signInManager;
             _userManager = userManager;
@@ -33,44 +33,47 @@ namespace BerberRandevuSitesi.Controllers
         [HttpPost]
         public async Task<IActionResult> IndexAsync(LoginViewModel model)
         {
-            if (ModelState.IsValid)
+           if (ModelState.IsValid)
+    {
+        try
+        {
+            // Kullanıcıyı e-posta adresi ile bul
+            var user = await _userManager.FindByEmailAsync(model.mailadress);
+            if (user != null)
             {
+                await _signInManager.SignOutAsync();
 
-                
-                try
+                // Şifreyi kontrol et
+                var result = await _signInManager.PasswordSignInAsync(user, model.sifre, model.rememberme, false);
+
+                if (result.Succeeded)
                 {
-                    // Kullanıcıyı e-posta adresi ile bul
-                    var user = await _userManager.FindByEmailAsync(model.mailadress);
-                    if (user != null)
+                    // Kullanıcının rollerini al
+                    var roles = await _userManager.GetRolesAsync(user);
 
+                    // Eğer kullanıcı Admin rolündeyse admin sayfasına yönlendir
+                    if (roles.Contains("Admin"))
                     {
-
-                        await _signInManager.SignOutAsync();
-                        // Şifreyi kontrol et
-                        var result = await _signInManager.PasswordSignInAsync(user, model.sifre, model.rememberme,false);
-
-                        if (result.Succeeded)
-                        {
-                            return RedirectToAction("Index", "Home"); // Başarılı giriş sonrası ana sayfaya yönlendir
-                        }
-                        else
-                        {
-                            ModelState.AddModelError(string.Empty, "Hatalı şifre.");
-                        }
+                        return RedirectToAction("Index", "Admin"); // Admin ana sayfası
                     }
-                    else
-                    {
-                        ModelState.AddModelError(string.Empty, "Böyle bir kullanıcı bulunamadı.");
-                    }
-                    
+
+                    return RedirectToAction("Index", "Home"); // Diğer kullanıcılar için ana sayfa
                 }
-                catch (Exception ex)
+                else
                 {
-                    ModelState.AddModelError(string.Empty, "Bir hata oluştu, lütfen tekrar deneyiniz. " + ex.Message);
+                    ModelState.AddModelError(string.Empty, "Hatalı şifre.");
                 }
-                
-
             }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Böyle bir kullanıcı bulunamadı.");
+            }
+        }
+        catch (Exception ex)
+        {
+            ModelState.AddModelError(string.Empty, "Bir hata oluştu, lütfen tekrar deneyiniz. " + ex.Message);
+        }
+    }
 
             // Hata durumunda veya geçersiz modelde sayfayı tekrar göster
             if (!ModelState.IsValid)

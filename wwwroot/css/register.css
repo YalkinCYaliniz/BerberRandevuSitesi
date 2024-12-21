@@ -1,0 +1,54 @@
+.password-container {
+    position: relative;
+}
+.criteria-bubble {
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    transform: translateY(-50%);
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.criteria-bubble li {
+    list-style: none;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.criteria-bubble li span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    background-color: red;
+}
+.criteria-bubble li span.valid {
+    background-color: green;
+}
+.password-strength-bar {
+    height: 5px;
+    width: 100%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+.password-strength-text {
+    font-weight: bold;
+    text-align: center;
+}
+.text-weak {
+    color: red;
+}
+.text-medium {
+    color: orange;
+}
+.text-strong {
+    color: green;
+}

@@ -46,3 +46,7 @@ button.accept-policy[b-yfy5y3r33u] {
   white-space: nowrap;
   line-height: 60px;
 }
+.navbar-nav.ms-auto[b-yfy5y3r33u] {
+  position: relative;
+  right: 50px;  /* Sağdan 50px kaydır */
+}

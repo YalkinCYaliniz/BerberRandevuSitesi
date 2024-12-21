@@ -3,6 +3,7 @@ using System;
 using BerberRandevuSitesi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BerberRandevuSitesi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241221084648_AddAdmin")]
+    partial class AddAdmin
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -88,119 +91,6 @@ namespace BerberRandevuSitesi.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.CalisanYetenek", b =>
-                {
-                    b.Property<int>("CalisanId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("HizmetId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("CalisanId", "HizmetId");
-
-                    b.HasIndex("HizmetId");
-
-                    b.ToTable("CalisanYetenekler");
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Calisanlar", b =>
-                {
-                    b.Property<int>("CalisanId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("CalisanId"));
-
-                    b.Property<string>("Adi")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("Maas")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Soyadi")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("SubeId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("CalisanId");
-
-                    b.HasIndex("SubeId");
-
-                    b.ToTable("Calisanlar");
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Hizmetler", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
-
-                    b.Property<string>("HizmetAdi")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Hizmetler");
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Randevu", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
-
-                    b.Property<int>("CalisanId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("HizmetId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Saat")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("SubeId")
-                        .HasColumnType("integer");
-
-                    b.Property<DateTime>("Tarih")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("CalisanId");
-
-                    b.HasIndex("HizmetId");
-
-                    b.HasIndex("SubeId");
-
-                    b.ToTable("Randevular");
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Subeler", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("SubeAdi")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Subeler");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -335,63 +225,6 @@ namespace BerberRandevuSitesi.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("BerberRandevuSitesi.Models.CalisanYetenek", b =>
-                {
-                    b.HasOne("BerberRandevuSitesi.Models.Calisanlar", "Calisan")
-                        .WithMany("CalisanYetenekler")
-                        .HasForeignKey("CalisanId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BerberRandevuSitesi.Models.Hizmetler", "Hizmet")
-                        .WithMany()
-                        .HasForeignKey("HizmetId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Calisan");
-
-                    b.Navigation("Hizmet");
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Calisanlar", b =>
-                {
-                    b.HasOne("BerberRandevuSitesi.Models.Subeler", "Sube")
-                        .WithMany("Calisanlar")
-                        .HasForeignKey("SubeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Sube");
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Randevu", b =>
-                {
-                    b.HasOne("BerberRandevuSitesi.Models.Calisanlar", "Calisan")
-                        .WithMany()
-                        .HasForeignKey("CalisanId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BerberRandevuSitesi.Models.Hizmetler", "Hizmet")
-                        .WithMany()
-                        .HasForeignKey("HizmetId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BerberRandevuSitesi.Models.Subeler", "Sube")
-                        .WithMany()
-                        .HasForeignKey("SubeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Calisan");
-
-                    b.Navigation("Hizmet");
-
-                    b.Navigation("Sube");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -441,16 +274,6 @@ namespace BerberRandevuSitesi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Calisanlar", b =>
-                {
-                    b.Navigation("CalisanYetenekler");
-                });
-
-            modelBuilder.Entity("BerberRandevuSitesi.Models.Subeler", b =>
-                {
-                    b.Navigation("Calisanlar");
                 });
 #pragma warning restore 612, 618
         }

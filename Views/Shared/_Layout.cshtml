@@ -16,28 +16,63 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <!-- Ortalanmış Menü Öğeleri -->
-            <div class="collapse navbar-collapse position-absolute start-50 translate-middle-x" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Hizmetlerimiz">Hizmetlerimiz</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Home/Randevu">Randevu Al</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link home-icon" href="/">
-                            <i class="fa fa-home"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/SacDene">Saç Dene</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Hakkimizda">Hakkımızda</a>
-                    </li>
-                </ul>
+             <!-- Dinamik Navbar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                @if (ViewData["IsAdminPage"] != null && (bool)ViewData["IsAdminPage"])
+                {
+                    <!-- Admin Navbar -->
+                    <ul class="navbar-nav position-absolute start-50 translate-middle-x">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/KullaniciYonetimi">Kullanıcıları</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/KullaniciYonetimi">Çalışanları</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link home-icon" href="/">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/KullaniciYonetimi">Şubeleri </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/RandevuYonetimi">Randevu</a>
+                        </li>
+                    </ul>
+                }
+                else
+                {
+                     @if (User.IsInRole("Admin"))
+                {
+                    <!-- Admin Paneli Linki -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/Index">Admin Paneli</a>
+                        </li>
+                    </ul>
+            }
+                    <!-- Genel Navbar -->
+                    <ul class="navbar-nav position-absolute start-50 translate-middle-x">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Hizmetlerimiz">Hizmetlerimiz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Randevu">Randevu Al</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link home-icon" href="/">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/SacDene">Saç Dene</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Hakkimizda">Hakkımızda</a>
+                        </li>
+                    </ul>
+                }
             </div>
 
             <!-- Kullanıcı Oturum Kontrolü -->
