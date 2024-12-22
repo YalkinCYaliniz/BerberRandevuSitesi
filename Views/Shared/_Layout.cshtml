@@ -23,10 +23,10 @@
                     <!-- Admin Navbar -->
                     <ul class="navbar-nav position-absolute start-50 translate-middle-x">
                         <li class="nav-item">
-                            <a class="nav-link" href="/Kullanicilar/Index">Kullanıcılar</a>
+                            <a class="nav-link" asp-action="Index" asp-controller="Kullanicilar">Kullanıcılar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Admin/KullaniciYonetimi">Çalışanlar</a>
+                            <a class="nav-link" href="/Calisanlar">Çalışanlar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link home-icon" href="/">
@@ -34,10 +34,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Admin/KullaniciYonetimi">Şubeler</a>
+                            <a class="nav-link" asp-action="Index" asp-controller="Subeler">Şubeler</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Admin/RandevuYonetimi">Randevular</a>
+                            <a class="nav-link" asp-action="Index" asp-controller="Randevu">Randevular</a>
                         </li>
                     </ul>
                 }

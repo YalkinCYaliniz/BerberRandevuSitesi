@@ -9,6 +9,8 @@
     <link href="/css/kullanicilar.css" rel="stylesheet"> <!-- CSS dosyası bağlantısı -->
 </head>
 <body>
+    <h1 class="mb-4">Kullanıcı Listesi</h1>
+            <a asp-action="Olustur" class="btn btn-success mb-3">Kullanıcı Oluştur</a>
     <table class="table table-sm table-bordered custom-table">
     <thead>
         <tr>
@@ -33,7 +35,7 @@
             <td>@user.PhoneNumber</td>
             <td>@user.yas</td>  
             <td>
-                <a asp-action="Guncelle" asp-route-id="@user.Id" >Güncelle</a>
+                <a asp-action="Guncelle" asp-route-id="@user.Id">Güncelle</a>
 
                 <form asp-action="Sil" method="post" onsubmit="return confirm('Kullanıcı silinecek,emin misiniz?')" style="display: inline-block;">
                 <input type="hidden" value="@user.Id" name="id">
@@ -45,11 +47,6 @@
     }
     </tbody>
 </table>
-<div class="olustur" >
-        <div class="center-button">
-            <a asp-action="Olustur" class="btn btn-primary">Kullanıcı Oluştur</a>
-        </div>
-    </div>
 </body>
 </html>
 

@@ -12,6 +12,6 @@ namespace BerberRandevuSitesi.Models
         public string SubeAdi { get; set; }
 
         // Şubeye ait çalışanlar listesi
-        public List<Calisanlar> Calisanlar { get; set; }
+        public List<Calisanlar>? Calisanlar { get; set; }
     }
 }

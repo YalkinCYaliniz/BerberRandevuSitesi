@@ -150,6 +150,9 @@ namespace BerberRandevuSitesi.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
 
+                    b.Property<decimal>("Fiyat")
+                        .HasColumnType("numeric");
+
                     b.Property<string>("HizmetAdi")
                         .IsRequired()
                         .HasColumnType("text");

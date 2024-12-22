@@ -40,9 +40,8 @@ table.custom-table a:hover {
     background-color: gold;  /* Hover durumunda buton rengi değişsin */
     color: black !important;  /* Yazı rengi beyaz kalsın */
 }
-.olustur {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+
+h1 {
+    color: white;
 }
