@@ -11,6 +11,10 @@ namespace BerberRandevuSitesi.Models
     {
         [Required]
         public int yas { get; set; }
+
+        public string ad { get; set; }
+
+        public string soyad { get; set; }
         
     }
 }

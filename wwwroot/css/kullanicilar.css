@@ -1,0 +1,48 @@
+/* Sayfanın arka plan rengini siyah yap */
+body {
+    background-color: black !important;
+    color: black; /* Sayfa yazı rengi beyaz */
+}
+
+/* Tabloyu siyah arka plan ve beyaz yazılarla stilize et */
+table.custom-table {
+    background-color: black !important;  /* Tablo arka planını siyah yap */
+    color: black !important;  /* Tablodaki tüm yazıların rengini beyaz yap */
+    width: 100%; /* Tablonun genişliğini artır */
+    border-collapse: collapse; /* Kenar çizgilerinin birleşmesini sağlar */
+}
+
+/* Başlık hücrelerinin (th) stilini özelleştir */
+table.custom-table th {
+    background-color: black !important;  /* Başlık hücrelerinin arka planını daha koyu siyah yap */
+    color: white !important;  /* Başlık yazılarının rengini beyaz yap */
+    padding: 10px; /* Hücre içi boşluk */
+    text-align: left; /* Yazıları sola hizala */
+}
+
+/* Veri hücrelerinin (td) stilini özelleştir */
+table.custom-table td {
+    border: 1px solid black!important;  /* Kenar rengi beyaz */
+    padding: 10px; /* Hücre içi padding */
+    text-align: left; /* Yazıları sola hizala */
+}
+
+/* Butonlar için stil */
+table.custom-table a {
+    color: white !important;  /* Butonlardaki yazılar beyaz */
+    text-decoration: none;  /* Altı çizili olmasın */
+    padding: 5px 10px;  /* Buton içi boşluk */
+    background-color: black;  /* Buton arka plan rengi */
+    border-radius: 5px;  /* Butonun köşelerini yuvarla */
+}
+
+table.custom-table a:hover {
+    background-color: gold;  /* Hover durumunda buton rengi değişsin */
+    color: black !important;  /* Yazı rengi beyaz kalsın */
+}
+.olustur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

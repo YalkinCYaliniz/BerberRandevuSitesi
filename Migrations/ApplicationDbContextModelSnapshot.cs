@@ -74,6 +74,14 @@ namespace BerberRandevuSitesi.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("character varying(256)");
 
+                    b.Property<string>("ad")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("soyad")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<int>("yas")
                         .HasMaxLength(2)
                         .HasColumnType("integer");

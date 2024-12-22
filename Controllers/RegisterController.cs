@@ -68,7 +68,9 @@ public async Task<IActionResult> IndexAsync(CreateViewModel model)
                     UserName = model.mailadress.Split('@')[0],
                     Email = model.mailadress,
                     PhoneNumber = model.telefonno,
-                    yas = model.yas
+                    yas = model.yas,
+                    ad = model.ad,
+                    soyad = model.soyad
                     
                 };
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MDV0Eg00VNpN++WSUslYQpCgmYHh+ucJqQ1QpnNzcFE=",
+  "Hash": "jiQXUVq2NdbJYQ08Yfen6TkL6TjgKLLmOjhBtUeVqJI=",
   "Source": "BerberRandevuSitesi",
   "BasePath": "_content/BerberRandevuSitesi",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BerberRandevuSitesi.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\admin.css",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "css/admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
+    },
+    {
       "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\hakkimizda.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\hizmetler.css"
+    },
+    {
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\kullanicilar.css",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "css/kullanicilar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\kullanicilar.css"
     },
     {
       "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\login.css",
@@ -585,6 +623,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\apiIntegration.js"
+    },
+    {
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\js\\sifre.js",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "js/sifre.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sifre.js"
     },
     {
       "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\js\\site.js",

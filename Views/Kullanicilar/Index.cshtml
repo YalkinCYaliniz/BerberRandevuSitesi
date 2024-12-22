@@ -1,0 +1,55 @@
+@model IEnumerable<ApplicationUser>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcılar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/kullanicilar.css" rel="stylesheet"> <!-- CSS dosyası bağlantısı -->
+</head>
+<body>
+    <table class="table table-sm table-bordered custom-table">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Kullanıcı Adı</th>
+            <th>Email</th>
+            <th>Telefon Numarası</th>
+            <th>Yaş</th>
+            <th>Düzenle</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var user in Model){
+
+        <tr>
+            <td>@user.ad </td>
+            <td>@user.soyad </td>
+            <td>@user.UserName</td>
+            <td>@user.Email</td>
+            <td>@user.PhoneNumber</td>
+            <td>@user.yas</td>  
+            <td>
+                <a asp-action="Guncelle" asp-route-id="@user.Id" >Güncelle</a>
+
+                <form asp-action="Sil" method="post" onsubmit="return confirm('Kullanıcı silinecek,emin misiniz?')" style="display: inline-block;">
+                <input type="hidden" value="@user.Id" name="id">
+                <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<div class="olustur" >
+        <div class="center-button">
+            <a asp-action="Olustur" class="btn btn-primary">Kullanıcı Oluştur</a>
+        </div>
+    </div>
+</body>
+</html>
+

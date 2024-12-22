@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\BerberRandevuSitesi.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
       "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\hakkimizda.css",
       "PackagePath": "staticwebassets\\css\\hakkimizda.css"
     },
     {
       "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\hizmetler.css",
       "PackagePath": "staticwebassets\\css\\hizmetler.css"
+    },
+    {
+      "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\kullanicilar.css",
+      "PackagePath": "staticwebassets\\css\\kullanicilar.css"
     },
     {
       "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\css\\login.css",
@@ -115,6 +123,10 @@
     {
       "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\js\\apiIntegration.js",
       "PackagePath": "staticwebassets\\js\\apiIntegration.js"
+    },
+    {
+      "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\js\\sifre.js",
+      "PackagePath": "staticwebassets\\js\\sifre.js"
     },
     {
       "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\d\\BerberRandevuSitesi\\wwwroot\\js\\site.js",

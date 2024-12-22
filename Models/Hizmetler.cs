@@ -12,5 +12,6 @@ namespace BerberRandevuSitesi.Models
         public int ID{get; set;}
 
         public string HizmetAdi{get;set;}
+        public decimal Fiyat { get; set; }
     }
 }

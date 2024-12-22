@@ -20,7 +20,9 @@ public class IdentitySeedData
             UserName = "Admin1",  // Admin kullanıcı adı farklı olmalı
             Email = "B221210101@sakarya.edu.tr",
             PhoneNumber = "5320580805",
-            yas = 20
+            yas = 20,
+            ad = "Yalkın",
+            soyad = "Yalınız"
         };
         
         // Admin için özel şifre (sau) kullanılıyor
@@ -47,7 +49,9 @@ public class IdentitySeedData
             UserName = "Admin2",  // Admin kullanıcı adı farklı olmalı
             Email = "B211210056@sakarya.edu.tr",
             PhoneNumber = "5330911884",
-            yas = 23
+            yas = 23,
+            ad = "Furkan",
+            soyad = "Bilen"
         };
         
         // Admin için özel şifre (sau) kullanılıyor
