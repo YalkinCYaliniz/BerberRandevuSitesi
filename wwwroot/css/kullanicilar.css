@@ -1,47 +1,60 @@
 /* Sayfanın arka plan rengini siyah yap */
 body {
-    background-color: black !important;
-    color: black; /* Sayfa yazı rengi beyaz */
+  background-color: black !important;
+  color: white; /* Sayfa yazı rengi beyaz */
 }
 
 /* Tabloyu siyah arka plan ve beyaz yazılarla stilize et */
 table.custom-table {
-    background-color: black !important;  /* Tablo arka planını siyah yap */
-    color: black !important;  /* Tablodaki tüm yazıların rengini beyaz yap */
-    width: 100%; /* Tablonun genişliğini artır */
-    border-collapse: collapse; /* Kenar çizgilerinin birleşmesini sağlar */
+  background-color: black !important; /* Tablo arka planını siyah yap */
+  color: white !important; /* Tablodaki tüm yazıların rengini beyaz yap */
+  width: 100%; /* Tablonun genişliğini artır */
+  border-collapse: collapse; /* Kenar çizgilerinin birleşmesini sağlar */
 }
 
 /* Başlık hücrelerinin (th) stilini özelleştir */
 table.custom-table th {
-    background-color: black !important;  /* Başlık hücrelerinin arka planını daha koyu siyah yap */
-    color: white !important;  /* Başlık yazılarının rengini beyaz yap */
-    padding: 10px; /* Hücre içi boşluk */
-    text-align: left; /* Yazıları sola hizala */
+  background-color: black !important; /* Başlık hücrelerinin arka planını daha koyu siyah yap */
+  color: white !important; /* Başlık yazılarının rengini beyaz yap */
+  padding: 10px; /* Hücre içi boşluk */
+  text-align: left; /* Yazıları sola hizala */
 }
 
 /* Veri hücrelerinin (td) stilini özelleştir */
 table.custom-table td {
-    border: 1px solid black!important;  /* Kenar rengi beyaz */
-    padding: 10px; /* Hücre içi padding */
-    text-align: left; /* Yazıları sola hizala */
+  border: 1px solid black !important; /* Kenar rengi beyaz */
+  padding: 10px; /* Hücre içi padding */
+  text-align: left; /* Yazıları sola hizala */
 }
 
 /* Butonlar için stil */
 table.custom-table a {
-    color: white !important;  /* Butonlardaki yazılar beyaz */
-    text-decoration: none;  /* Altı çizili olmasın */
-    padding: 5px 10px;  /* Buton içi boşluk */
-    background-color: black;  /* Buton arka plan rengi */
-    border-radius: 5px;  /* Butonun köşelerini yuvarla */
+  color: white !important; /* Butonlardaki yazılar beyaz */
+  text-decoration: none; /* Altı çizili olmasın */
+  padding: 5px 10px; /* Buton içi boşluk */
+  background-color: black !important; /* Buton arka plan rengi */
+  border-radius: 5px; /* Butonun köşelerini yuvarla */
 }
 
-table.custom-table a:hover {
-    background-color: gold;  /* Hover durumunda buton rengi değişsin */
-    color: black !important;  /* Yazı rengi beyaz kalsın */
+/* Düzenle butonuna özel stil */
+table.custom-table .btn-warning {
+  background-color: blue !important; /* Düzenle butonunun arka planı mavi */
+  color: white !important; /* Yazı rengi beyaz */
+  border: 1px solid #007bff !important; /* Butonun kenarlarını mavi yap */
 }
 
+/* Düzenle butonunun rengi mavi */
+table.custom-table .btn-primary {
+  background-color: blue !important;
+  color: white !important;
+}
+
+/* Düzenle butonunun hover durumunda rengi koyu mavi olacak */
+table.custom-table .btn-primary:hover {
+  background-color: darkblue !important;
+  color: white !important;
+}
 
 h1 {
-    color: white;
+  color: white;
 }
