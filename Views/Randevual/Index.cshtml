@@ -1,0 +1,74 @@
+@model IEnumerable<Randevu>
+
+<h1 class="mb-4">Randevu Listesi</h1>
+
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="selectedDate">Tarih Seçin:</label>
+        <input type="date" id="selectedDate" name="selectedDate" class="form-control" />
+        <button type="submit" class="btn btn-primary mt-2">Randevu Tarihi Seç</button>
+    </div>
+</form>
+
+@if (TempData["UyarıMesaji"] != null)
+{
+    <div class="alert alert-warning mt-4" role="alert">
+        @TempData["UyarıMesaji"]
+    </div>
+}
+
+
+<!-- Randevu Yok mesajı -->
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-warning mt-4">
+        @ViewBag.Message
+    </div>
+}
+
+<!-- Randevular Tablosu -->
+@if (Model.Any())
+{
+    <table class="table table-sm table-bordered custom-table mt-4">
+        <thead>
+            <tr>
+                <th>Tarih</th>
+                <th>Saat</th>
+                <th>Şube</th>
+                <th>Hizmet</th>
+                <th>Çalışan</th>
+                <th>Durum</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var randevu in Model)
+            {
+                <tr>
+                    <td>@randevu.Tarih.ToString("dd.MM.yyyy")</td>
+                    <td>@randevu.Saat</td>
+                    <td>@randevu.Sube.SubeAdi</td>
+                    <td>@randevu.Hizmet.HizmetAdi</td>
+                    <td>@randevu.Calisan.Adi @randevu.Calisan.Soyadi</td>
+                    <td>
+                        @if (randevu.musaitlik)
+                        {
+                            <form action="@Url.Action("RandevuOlustur", new { id = randevu.ID })" method="post" onsubmit="return confirmRandevuOlustur();">
+                            <button type="submit" class="btn btn-primary">Randevu Al</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="text-danger">Dolu</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<script>
+    function confirmRandevuOlustur() {
+        return confirm("Randevuyu almak istediğinizden emin misiniz?");
+    }
+</script>

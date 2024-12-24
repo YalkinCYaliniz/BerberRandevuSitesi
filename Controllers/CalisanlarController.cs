@@ -4,6 +4,7 @@ using BerberRandevuSitesi.Data;
 using BerberRandevuSitesi.Models;
 using System.Linq;
 using System.Threading.Tasks;
+using BerberRandevuSitesi.DTOs;
 
 namespace BerberRandevuSitesi.Controllers
 {
@@ -24,8 +25,10 @@ namespace BerberRandevuSitesi.Controllers
         public IActionResult Index()
         {
             ViewData["IsAdminPage"] = true;
-            return View();  // Çalışanlar listesi sayfası
+            return View(); // Çalışanlar listesi sayfası
         }
+
+        // Tüm çalışanları getir
         [HttpGet]
         public IActionResult GetAllCalisanlar()
         {
@@ -43,11 +46,8 @@ namespace BerberRandevuSitesi.Controllers
             return Ok(calisanlar);
         }
 
-        
-
-        // API: Çalışan bilgilerini getir
-     
-[HttpGet("{id}")]
+        // Belirli bir çalışan bilgilerini getir
+        [HttpGet("{id}")]
 public async Task<IActionResult> GetCalisan(int id)
 {
     var calisan = await _dbContext.Calisanlar
@@ -61,30 +61,34 @@ public async Task<IActionResult> GetCalisan(int id)
         return NotFound(new { message = "Çalışan bulunamadı." });
     }
 
-    return Ok(new
+    var calisanDto = new CalisanDTO
     {
-        calisan.CalisanId,
-        calisan.Adi,
-        calisan.Soyadi,
-        calisan.Maas,
-        calisan.SubeId,
-        Yetenekler = calisan.CalisanYetenekler.Select(cy => new
+        CalisanId = calisan.CalisanId,
+        Adi = calisan.Adi,
+        Soyadi = calisan.Soyadi,
+        Maas = calisan.Maas,
+        SubeId = calisan.SubeId,
+        CalisanYetenekler = calisan.CalisanYetenekler.Select(cy => new CalisanYetenekDTO
         {
             HizmetId = cy.HizmetId,
-            HizmetAdi = cy.Hizmet.HizmetAdi
-        })
-    });
+            HizmetAdi = cy.Hizmet?.HizmetAdi
+        }).ToList()
+    };
+
+    return Ok(calisanDto);
 }
 
 
-
-    [HttpGet("/Calisanlar/Duzenle/{id}")]
+        // Çalışan düzenleme sayfasını döndürme
+        [HttpGet("/Calisanlar/Duzenle/{id}")]
         public async Task<IActionResult> Duzenle(int id)
         {
-        ViewData["IsAdminPage"] = true;
+            ViewData["IsAdminPage"] = true;
+
             var calisan = await _dbContext.Calisanlar
                 .Include(c => c.Sube)
                 .Include(c => c.CalisanYetenekler)
+                .ThenInclude(cy => cy.Hizmet)
                 .FirstOrDefaultAsync(c => c.CalisanId == id);
 
             if (calisan == null)
@@ -92,46 +96,41 @@ public async Task<IActionResult> GetCalisan(int id)
                 return NotFound("Çalışan bulunamadı.");
             }
 
-            return View(calisan); // Razor View'ı döndürür
+            var hizmetler = await _dbContext.Hizmetler.ToListAsync();
+            ViewBag.Hizmetler = hizmetler;
+
+            return View(calisan);
         }
 
-
-
-
-               [HttpPut("/api/Calisanlar/{id}")]
-public async Task<IActionResult> Duzenle(int id, [FromBody] Calisanlar calisan)
+        // Çalışan düzenleme işlemi (Yalnızca isim, soyisim, maaş, şube güncelleme)
+        [HttpPut("{id}")]
+public async Task<IActionResult> Duzenle(int id, [FromBody] CalisanDTO calisanDto)
 {
-    if (id != calisan.CalisanId)
-    {
-        return BadRequest(new { message = "Çalışan ID'si uyuşmuyor." });
-    }
+    if (id != calisanDto.CalisanId)
+        return BadRequest(new { message = "ID uyuşmazlığı." });
 
     if (!ModelState.IsValid)
-    {
-        return BadRequest(new { 
-            message = "Gönderilen veri modeli geçerli değil.", 
-            errors = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage)) 
-        });
-    }
+        return BadRequest(new { message = "Doğrulama hatası.", errors = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage)) });
 
     var existingCalisan = await _dbContext.Calisanlar
         .Include(c => c.CalisanYetenekler)
         .FirstOrDefaultAsync(c => c.CalisanId == id);
+
     if (existingCalisan == null)
-    {
         return NotFound(new { message = "Çalışan bulunamadı." });
-    }
 
-    existingCalisan.Adi = calisan.Adi;
-    existingCalisan.Soyadi = calisan.Soyadi;
-    existingCalisan.Maas = calisan.Maas;
-    existingCalisan.SubeId = calisan.SubeId;
+    existingCalisan.Adi = calisanDto.Adi;
+    existingCalisan.Soyadi = calisanDto.Soyadi;
+    existingCalisan.Maas = calisanDto.Maas;
+    existingCalisan.SubeId = calisanDto.SubeId;
 
-    // Yetenek güncelleme
+    // Eski yetenekleri sil
     _dbContext.CalisanYetenekler.RemoveRange(existingCalisan.CalisanYetenekler);
-    if (calisan.CalisanYetenekler != null)
+
+    // Yeni yetenekleri ekle
+    if (calisanDto.CalisanYetenekler != null)
     {
-        foreach (var yetenek in calisan.CalisanYetenekler)
+        foreach (var yetenek in calisanDto.CalisanYetenekler)
         {
             _dbContext.CalisanYetenekler.Add(new CalisanYetenek
             {
@@ -141,37 +140,127 @@ public async Task<IActionResult> Duzenle(int id, [FromBody] Calisanlar calisan)
         }
     }
 
+    await _dbContext.SaveChangesAsync();
+    return Ok(existingCalisan);
+}
+
+
+
+        // Yetenek ekleme ve silme işlemi
+        [HttpPost("/Calisanlar/Duzenle/Yetenek/{id}")]
+public async Task<IActionResult> YetenekGuncelle(int id, [FromBody] List<CalisanYetenekDTO> yeniYetenekDtos)
+{
+    var existingCalisan = await _dbContext.Calisanlar
+        .Include(c => c.CalisanYetenekler)
+        .FirstOrDefaultAsync(c => c.CalisanId == id);
+
+    if (existingCalisan == null)
+    {
+        return NotFound(new { message = "Çalışan bulunamadı." });
+    }
+
+    // Mevcut yetenekleri kaldır
+    _dbContext.CalisanYetenekler.RemoveRange(existingCalisan.CalisanYetenekler);
+
+    // Yeni yetenekleri ekle
+    if (yeniYetenekDtos != null)
+    {
+        foreach (var dto in yeniYetenekDtos)
+        {
+            var hizmet = await _dbContext.Hizmetler.FirstOrDefaultAsync(h => h.ID == dto.HizmetId);
+            if (hizmet != null)
+            {
+                _dbContext.CalisanYetenekler.Add(new CalisanYetenek
+                {
+                    CalisanId = id,
+                    HizmetId = dto.HizmetId
+                });
+            }
+        }
+    }
+
+    await _dbContext.SaveChangesAsync();
+
+    return Ok(new { message = "Yetenekler güncellendi." });
+}
+
+        
+
+
+   [HttpGet]
+[Route("/Calisanlar/Ekle")]
+public IActionResult Ekle()
+{
+ViewData["IsAdminPage"] = true;
+    return View(); // Razor View dosyasını döner
+}
+
+         [HttpPost]
+public async Task<IActionResult> Ekle([FromBody] CalisanDTO calisanDto)
+{
+    if (!ModelState.IsValid)
+    {
+        return BadRequest(new
+        {
+            message = "Gönderilen veri modeli geçerli değil.",
+            errors = ModelState
+        });
+    }
+
     try
     {
+        var calisan = new Calisanlar
+        {
+            Adi = calisanDto.Adi,
+            Soyadi = calisanDto.Soyadi,
+            Maas = calisanDto.Maas,
+            SubeId = calisanDto.SubeId,
+            CalisanYetenekler = calisanDto.CalisanYetenekler?.Select(y => new CalisanYetenek
+            {
+                HizmetId = y.HizmetId
+            }).ToList() ?? new List<CalisanYetenek>()
+        };
+
+        _dbContext.Calisanlar.Add(calisan);
         await _dbContext.SaveChangesAsync();
+
+        return Ok(new { message = "Çalışan başarıyla eklendi." });
     }
-    catch (DbUpdateException ex)
+    catch (Exception ex)
     {
-        return StatusCode(500, new { message = "Veritabanı güncelleme hatası.", details = ex.Message });
+        return StatusCode(500, new { message = "Sunucu hatası.", details = ex.Message });
     }
-
-    return NoContent();
 }
 
 
 
 
 
+
+
+
+
+// Çalışan silme
         [HttpDelete("{id}")]
-public IActionResult Sil(int id)
-{
-    var calisan = _dbContext.Calisanlar
-        .Include(c => c.CalisanYetenekler)
-        .FirstOrDefault(c => c.CalisanId == id);
+        public IActionResult Sil(int id)
+        {
+            var calisan = _dbContext.Calisanlar
+                .Include(c => c.CalisanYetenekler)
+                .FirstOrDefault(c => c.CalisanId == id);
 
-    if (calisan == null)
-        return NotFound(new { message = "Çalışan bulunamadı." });
+            if (calisan == null)
+            {
+                return NotFound(new { message = "Çalışan bulunamadı." });
+            }
 
-    _dbContext.Calisanlar.Remove(calisan);
-    _dbContext.SaveChanges();
+            _dbContext.Calisanlar.Remove(calisan);
+            _dbContext.SaveChanges();
 
-    return NoContent();
-}
+            return NoContent();
+        }
+
 
     }
+    
+    
 }

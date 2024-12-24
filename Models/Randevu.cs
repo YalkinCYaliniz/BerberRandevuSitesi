@@ -12,7 +12,7 @@ namespace BerberRandevuSitesi.Models
     {
         [Key]
         public int ID {get; set;}
-        public DateTime Tarih{get;set;}
+        public DateOnly Tarih{get;set;}
 
         public string Saat{get; set;} 
 
@@ -32,6 +32,13 @@ namespace BerberRandevuSitesi.Models
         [ForeignKey("CalisanId")]
         [ValidateNever]
         public Calisanlar Calisan { get; set; }
+
+        public bool musaitlik { get; set; }
+
+        [ValidateNever]
+        public string? ApplicationUserId { get; set; } // IdentityUser'dan gelen Id
+            [ForeignKey("ApplicationUserId")]
+        public ApplicationUser ApplicationUser { get; set; }
 
     }
 }

@@ -15,6 +15,10 @@ namespace BerberRandevuSitesi.Models
         public string ad { get; set; }
 
         public string soyad { get; set; }
+
+        public ICollection<Randevu> Randevular{get; set;}
+
+        public int randevusayisi { get; set; }
         
     }
 }

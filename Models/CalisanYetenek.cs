@@ -13,11 +13,16 @@ namespace BerberRandevuSitesi.Models
         public int CalisanId { get; set; }
         public Calisanlar Calisan { get; set; }
         [ValidateNever]
+        
         public int HizmetId { get; set; }
 
         // FOREIGN KEY - Hizmet
         [ForeignKey("HizmetId")]
         public Hizmetler Hizmet { get; set; }
+
+        [NotMapped] 
+        public string HizmetAdi => Hizmet?.HizmetAdi;
+
 
 
     }

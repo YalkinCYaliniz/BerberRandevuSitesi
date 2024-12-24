@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Çalışan Ekle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="mb-4">Yeni Çalışan Ekle</h1>
+    <form id="ekleForm">
+        <div class="mb-3">
+            <label for="adi" class="form-label">Adı</label>
+            <input type="text" class="form-control" id="adi" name="adi" required>
+        </div>
+        <div class="mb-3">
+            <label for="soyadi" class="form-label">Soyadı</label>
+            <input type="text" class="form-control" id="soyadi" name="soyadi" required>
+        </div>
+        <div class="mb-3">
+            <label for="maas" class="form-label">Maaş</label>
+            <input type="number" class="form-control" id="maas" name="maas" required>
+        </div>
+        <div class="mb-3">
+            <label for="subeAdi" class="form-label">Şube</label>
+            <select class="form-control" id="subeAdi" name="subeAdi" required>
+                <option value="">Şube Seçin</option>
+            </select>
+        </div>
+        <div class="mb-3" id="yeteneklerContainer" style="display: none;">
+    <label for="yeteneklerListesi" class="form-label">Yetenekler</label>
+    <div id="yeteneklerListesi" class="mb-3"></div>
+    <select id="yeniYetenekSec" class="form-select mb-2">
+        <option value="">Yetenek Seçin</option>
+    </select>
+    <button type="button" class="btn btn-sm btn-success" id="yeniYetenekEkle">Yetenek Ekle</button>
+</div>
+
+        <button type="submit" class="btn btn-primary">Ekle</button>
+    </form>
+</div>
+
+<script>
+    window.onload = async function () {
+        try {
+            // Şubeleri al ve dropdown'a doldur
+            const subelerResponse = await fetch('/api/Subeler');
+            const subeler = await subelerResponse.json();
+            const subeSelect = document.getElementById('subeAdi');
+            subeler.forEach(sube => {
+                const option = document.createElement('option');
+                option.value = sube.id;
+                option.textContent = sube.subeAdi;
+                subeSelect.appendChild(option);
+            });
+
+            // Hizmetleri al ve dropdown'a doldur
+            const hizmetlerResponse = await fetch('/api/Hizmetler');
+            const hizmetler = await hizmetlerResponse.json();
+            const yeniYetenekSec = document.getElementById('yeniYetenekSec');
+            hizmetler.forEach(hizmet => {
+                const option = document.createElement('option');
+                option.value = hizmet.id;
+                option.textContent = hizmet.hizmetAdi;
+                yeniYetenekSec.appendChild(option);
+            });
+
+            window.availableHizmetler = hizmetler;
+        } catch (error) {
+            console.error('Hata:', error);
+            alert('Sayfa yüklenirken bir hata oluştu.');
+        }
+    };
+
+    // Yeni yetenek ekleme
+    document.getElementById('yeniYetenekEkle').addEventListener('click', function () {
+        const yeteneklerListesi = document.getElementById('yeteneklerListesi');
+        const yeniYetenekSec = document.getElementById('yeniYetenekSec');
+
+        const selectedOption = yeniYetenekSec.selectedOptions[0];
+        if (!selectedOption || !selectedOption.value) {
+            alert('Lütfen bir yetenek seçin.');
+            return;
+        }
+
+        const hizmetId = selectedOption.value;
+        const hizmetAdi = selectedOption.textContent;
+
+        // Seçilen yeteneklerin tekrar seçilmesini engelle
+        selectedOption.disabled = true;
+
+        // Yetenek listesini güncelle
+        const div = document.createElement('div');
+        div.className = 'd-flex align-items-center mb-2';
+
+        const span = document.createElement('span');
+        span.className = 'me-2';
+        span.textContent = hizmetAdi;
+
+        const removeButton = document.createElement('button');
+        removeButton.className = 'btn btn-sm btn-danger';
+        removeButton.type = 'button';
+        removeButton.textContent = 'Kaldır';
+
+        removeButton.onclick = function () {
+            div.remove();
+            selectedOption.disabled = false; // Seçimi tekrar aç
+        };
+
+        div.appendChild(span);
+        div.appendChild(removeButton);
+        div.dataset.hizmetId = hizmetId;
+        yeteneklerListesi.appendChild(div);
+    });
+
+    // Form gönderme
+    document.getElementById('ekleForm').onsubmit = async function (event) {
+    event.preventDefault();
+
+    const adi = document.getElementById('adi').value;
+    const soyadi = document.getElementById('soyadi').value;
+    const maas = document.getElementById('maas').value;
+    const subeId = document.getElementById('subeAdi').value;
+    const calisanYetenekler = []; // Yetenek eklenmediği için boş dizi
+
+    try {
+        const response = await fetch('/api/Calisanlar', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                adi,
+                soyadi,
+                maas: parseInt(maas),
+                subeId: parseInt(subeId),
+                calisanYetenekler // Boş dizi gönderilir
+            })
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            console.error('Hata:', errorData);
+            alert('Ekleme sırasında bir hata oluştu.');
+            return;
+        }
+
+        alert('Çalışan başarıyla eklendi!');
+        window.location.href = '/Calisanlar';
+    } catch (error) {
+        console.error('Hata:', error);
+        alert('Çalışan eklenirken bir hata oluştu.');
+    }
+};
+
+</script>
+</body>
+</html>

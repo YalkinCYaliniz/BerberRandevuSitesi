@@ -42,11 +42,14 @@
                     <button type="submit" class="btn btn-dark">Giriş Yap</button>
                     <a href="/Register" class="btn btn-outline-dark">Kayıt Ol</a>
                 </div>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             </form>
         </div>
     </div>
 </body>
 </html>
+
+
 
 @section Scripts {
     @{

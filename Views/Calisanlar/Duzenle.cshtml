@@ -7,52 +7,43 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container mt-5">
+<div class="container mt-5">
     <h1 class="mb-4">Çalışan Düzenle</h1>
-
     <form id="duzenleForm">
         <input type="hidden" id="calisanId" name="calisanId" value="" />
-
         <div class="mb-3">
             <label for="adi" class="form-label">Adı</label>
             <input type="text" class="form-control" id="adi" name="adi" required>
         </div>
-
         <div class="mb-3">
             <label for="soyadi" class="form-label">Soyadı</label>
             <input type="text" class="form-control" id="soyadi" name="soyadi" required>
         </div>
-
         <div class="mb-3">
             <label for="maas" class="form-label">Maaş</label>
             <input type="number" class="form-control" id="maas" name="maas" required>
         </div>
-
         <div class="mb-3">
             <label for="subeAdi" class="form-label">Şube</label>
             <select class="form-control" id="subeAdi" name="subeAdi" required>
                 <option value="">Şube Seçin</option>
             </select>
         </div>
-
         <div class="mb-3">
-            <label for="yetenekler" class="form-label">Yetenekler</label>
+            <label for="calisanYetenekler" class="form-label">Yetenekler</label>
             <div id="yeteneklerListesi" class="mb-2">
                 <!-- Dinamik olarak yetenekler buraya eklenecek -->
             </div>
             <button type="button" class="btn btn-sm btn-success" id="yeniYetenekEkle">Yeni Yetenek Ekle</button>
         </div>
-
         <button type="submit" class="btn btn-primary">Güncelle</button>
     </form>
 </div>
 
-
-    <script>
-        window.onload = async function () {
+<script>
+    window.onload = async function () {
     const pathSegments = window.location.pathname.split('/');
     const calisanId = pathSegments[pathSegments.length - 1];
-
     if (!calisanId || isNaN(calisanId)) {
         alert('Geçersiz çalışan ID');
         return;
@@ -72,14 +63,15 @@
         const calisanResponse = await fetch(`/api/Calisanlar/${calisanId}`);
         const calisan = await calisanResponse.json();
 
-        document.getElementById('calisanId').value = calisan.calisanId || '';
-        document.getElementById('adi').value = calisan.adi || '';
-        document.getElementById('soyadi').value = calisan.soyadi || '';
-        document.getElementById('maas').value = calisan.maas || '';
-        document.getElementById('subeAdi').value = calisan.subeId || '';
+        document.getElementById('calisanId').value = calisan.calisanId;
+        document.getElementById('adi').value = calisan.adi;
+        document.getElementById('soyadi').value = calisan.soyadi;
+        document.getElementById('maas').value = calisan.maas;
+        document.getElementById('subeAdi').value = calisan.subeId;
 
         const yeteneklerListesi = document.getElementById('yeteneklerListesi');
-        calisan.yetenekler.forEach(yetenek => {
+        const mevcutYetenekIds = calisan.calisanYetenekler.map(yetenek => yetenek.hizmetId);
+        calisan.calisanYetenekler.forEach(yetenek => {
             const yetenekDiv = document.createElement('div');
             yetenekDiv.className = 'yetenek-item mb-2';
             yetenekDiv.innerHTML = `
@@ -89,58 +81,56 @@
             `;
             yeteneklerListesi.appendChild(yetenekDiv);
         });
+
+        const hizmetlerResponse = await fetch('/api/Hizmetler');
+        const hizmetler = await hizmetlerResponse.json();
+        const yeniHizmetler = hizmetler.filter(hizmet => !mevcutYetenekIds.includes(hizmet.id));
+        window.hizmetler = yeniHizmetler;
     } catch (error) {
         console.error('Hata:', error);
-        alert('Çalışan bilgileri alınırken bir hata oluştu.');
+        alert('Bilgiler alınırken bir hata oluştu.');
     }
 };
 
-document.getElementById('yeniYetenekEkle').addEventListener('click', async function () {
+document.getElementById('yeniYetenekEkle').addEventListener('click', function () {
+    const yeteneklerListesi = document.getElementById('yeteneklerListesi');
+
+    const mevcutYetenekIds = Array.from(document.querySelectorAll('.yetenek-item input.yetenek-id, .yeni-yetenek-item select'))
+        .map(input => parseInt(input.value))
+        .filter(id => !isNaN(id));
+
+    const yeniHizmetler = window.hizmetler.filter(hizmet => !mevcutYetenekIds.includes(hizmet.id));
+
+    if (yeniHizmetler.length === 0) {
+        alert('Eklenebilir başka yetenek yok.');
+        return;
+    }
+
     const yeniYetenekDiv = document.createElement('div');
     yeniYetenekDiv.className = 'yeni-yetenek-item mb-2';
     yeniYetenekDiv.innerHTML = `
         <select class="form-select yeni-yetenek-select">
             <option value="">Yetenek Seçin</option>
+            ${yeniHizmetler.map(hizmet => `
+                <option value="${hizmet.id}">${hizmet.hizmetAdi}</option>
+            `).join('')}
         </select>
         <button type="button" class="btn btn-sm btn-danger ml-2 yeni-yetenek-sil">Sil</button>
     `;
-
-    const yeteneklerListesi = document.getElementById('yeteneklerListesi');
     yeteneklerListesi.appendChild(yeniYetenekDiv);
+});
 
-    try {
-        const hizmetlerResponse = await fetch('/api/Hizmetler');
-        const hizmetler = await hizmetlerResponse.json();
-
-        // Mevcut ve seçilmiş yetenekleri al
-        const mevcutYetenekler = Array.from(document.querySelectorAll('.yetenek-item .yetenek-id'))
-            .map(input => parseInt(input.value));
-        const yeniEklenecekYetenekler = Array.from(document.querySelectorAll('.yeni-yetenek-select'))
-            .filter(select => select.value)
-            .map(select => parseInt(select.value));
-
-        // Filtreleme işlemi
-        const uygunHizmetler = hizmetler.filter(hizmet => 
-            !mevcutYetenekler.includes(hizmet.id) && !yeniEklenecekYetenekler.includes(hizmet.id)
-        );
-
-        const select = yeniYetenekDiv.querySelector('.yeni-yetenek-select');
-
-        // Filtrelenmiş hizmetleri doldur
-        uygunHizmetler.forEach(hizmet => {
-            const option = document.createElement('option');
-            option.value = hizmet.id;
-            option.textContent = hizmet.hizmetAdi;
-            select.appendChild(option);
-        });
-    } catch (error) {
-        console.error('Hata:', error);
-        alert('Hizmetler alınırken bir hata oluştu.');
+// Dinamik olarak eklenen ve mevcut butonlar için tıklama olayını delegasyon ile yakalayalım
+document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('yetenek-sil') || event.target.classList.contains('yeni-yetenek-sil')) {
+        const yetenekDiv = event.target.closest('.yetenek-item, .yeni-yetenek-item');
+        if (yetenekDiv) {
+            yetenekDiv.remove();
+        }
     }
 });
 
-
-
+// Form gönderme işlemi
 document.getElementById('duzenleForm').onsubmit = async function (event) {
     event.preventDefault();
 
@@ -150,58 +140,56 @@ document.getElementById('duzenleForm').onsubmit = async function (event) {
     const maas = document.getElementById('maas').value;
     const subeId = document.getElementById('subeAdi').value;
 
-    const mevcutYetenekler = Array.from(document.querySelectorAll('.yetenek-item .yetenek-id'))
-        .map(input => parseInt(input.value));
-    const yeniYetenekler = Array.from(document.querySelectorAll('.yeni-yetenek-item .yeni-yetenek-select'))
-        .filter(select => select.value)
-        .map(select => parseInt(select.value));
-    
+    // calisanYetenekler dizisini hem hizmetId hem de hizmetAdi ile oluşturma
+    const calisanYetenekler = Array.from(document.querySelectorAll('.yetenek-item, .yeni-yetenek-item'))
+        .map(item => {
+            const hizmetId = parseInt(item.querySelector('.yetenek-id, .yeni-yetenek-select').value);
+            const hizmetAdi = item.querySelector('span, option:checked')?.textContent?.trim();
+
+            return hizmetId && hizmetAdi ? { hizmetId, hizmetAdi } : null;
+        })
+        .filter(yetenek => yetenek !== null);
 
     try {
+        console.log('Gönderilen JSON:', JSON.stringify({
+            calisanId: parseInt(calisanId),
+            adi,
+            soyadi,
+            maas: parseInt(maas),
+            subeId: parseInt(subeId),
+            calisanYetenekler
+        }));
+
         const response = await fetch(`/api/Calisanlar/${calisanId}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 calisanId: parseInt(calisanId),
-                adi: adi,
-                soyadi: soyadi,
+                adi,
+                soyadi,
                 maas: parseInt(maas),
                 subeId: parseInt(subeId),
-                calisanYetenekler: [
-                    ...mevcutYetenekler.map(hizmetId => ({ hizmetId })),
-                    ...yeniYetenekler.map(hizmetId => ({ hizmetId }))
-                ]
+                calisanYetenekler
             })
         });
-        
 
-        if (response.ok) {
-            alert('Çalışan başarıyla güncellendi!');
-            window.location.href = '/Calisanlar';
-        } else {
+        if (!response.ok) {
             const errorData = await response.json();
-            alert('Hata: ' + (errorData.message || 'Güncelleme başarısız.'));
-            console.log(JSON.stringify({
-    calisanId: parseInt(calisanId),
-    adi: adi,
-    soyadi: soyadi,
-    maas: parseInt(maas),
-    subeId: parseInt(subeId),
-    calisanYetenekler: [
-        ...mevcutYetenekler.map(hizmetId => ({ hizmetId })),
-        ...yeniYetenekler.map(hizmetId => ({ hizmetId }))
-    ]
-}));
-
+            console.error('Sunucudan dönen hata:', errorData);
+            alert(`Güncelleme sırasında bir hata oluştu: ${errorData.message || 'Sunucu hatası'}`);
+            return;
         }
+
+        alert('Çalışan başarıyla güncellendi!');
+        window.location.href = '/Calisanlar';
     } catch (error) {
-        console.error('Hata:', error);
-        alert('Çalışan güncellenirken bir hata oluştu.');
+        console.error('Kritik hata:', error);
+        alert('Çalışan güncellenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.');
     }
 };
 
 
 
-    </script>
+</script>
 </body>
 </html>

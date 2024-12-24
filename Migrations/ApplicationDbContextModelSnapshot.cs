@@ -78,6 +78,9 @@ namespace BerberRandevuSitesi.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int>("randevusayisi")
+                        .HasColumnType("integer");
+
                     b.Property<string>("soyad")
                         .IsRequired()
                         .HasColumnType("text");
@@ -170,6 +173,9 @@ namespace BerberRandevuSitesi.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
 
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("text");
+
                     b.Property<int>("CalisanId")
                         .HasColumnType("integer");
 
@@ -183,10 +189,15 @@ namespace BerberRandevuSitesi.Migrations
                     b.Property<int>("SubeId")
                         .HasColumnType("integer");
 
-                    b.Property<DateTime>("Tarih")
-                        .HasColumnType("timestamp with time zone");
+                    b.Property<DateOnly>("Tarih")
+                        .HasColumnType("date");
+
+                    b.Property<bool>("musaitlik")
+                        .HasColumnType("boolean");
 
                     b.HasKey("ID");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.HasIndex("CalisanId");
 
@@ -378,6 +389,10 @@ namespace BerberRandevuSitesi.Migrations
 
             modelBuilder.Entity("BerberRandevuSitesi.Models.Randevu", b =>
                 {
+                    b.HasOne("BerberRandevuSitesi.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany("Randevular")
+                        .HasForeignKey("ApplicationUserId");
+
                     b.HasOne("BerberRandevuSitesi.Models.Calisanlar", "Calisan")
                         .WithMany()
                         .HasForeignKey("CalisanId")
@@ -395,6 +410,8 @@ namespace BerberRandevuSitesi.Migrations
                         .HasForeignKey("SubeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("ApplicationUser");
 
                     b.Navigation("Calisan");
 
@@ -452,6 +469,11 @@ namespace BerberRandevuSitesi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("BerberRandevuSitesi.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("Randevular");
                 });
 
             modelBuilder.Entity("BerberRandevuSitesi.Models.Calisanlar", b =>
