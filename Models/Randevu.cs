@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace BerberRandevuSitesi.Models{
@@ -16,6 +17,7 @@ public class Randevu
     [Required]
     [DataType(DataType.Date)]
     [CustomValidation(typeof(Randevu), nameof(ValidateTarih))]
+    
     public DateOnly Tarih { get; set; }
 
     [Required]
@@ -46,14 +48,25 @@ public class Randevu
     [ValidateNever]
     public ApplicationUser ApplicationUser { get; set; }
 
+    [NotMapped]
+public DateTime TarihAsDateTime
+{
+    get => Tarih.ToDateTime(TimeOnly.MinValue);
+    set => Tarih = DateOnly.FromDateTime(value);
+}
+
+
     public static ValidationResult? ValidateTarih(DateOnly tarih, ValidationContext context)
+{
+    var today = DateOnly.FromDateTime(DateTime.Now.Date); // Bugünün tarihi
+    if (tarih < today)
     {
-        if (tarih < DateOnly.FromDateTime(DateTime.Now))
-        {
-            return new ValidationResult("Randevu tarihi bugünden ileri bir tarih olmalıdır.");
-        }
-        return ValidationResult.Success;
+        return new ValidationResult("Randevu tarihi bugünden ileri bir tarih olmalıdır.");
     }
+    return ValidationResult.Success;
+}
+
+
 
     public static ValidationResult? ValidateSaat(string saat, ValidationContext context)
     {

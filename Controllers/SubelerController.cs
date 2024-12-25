@@ -68,7 +68,8 @@ public IActionResult GetSubeCalisanlar(int subeId)
         .Select(c => new
         {
             id = c.CalisanId, // Benzersiz çalışan ID'si
-            adi = c.Adi
+            adi = c.Adi,
+            soyadi = c.Soyadi
         })
         .ToList();
 

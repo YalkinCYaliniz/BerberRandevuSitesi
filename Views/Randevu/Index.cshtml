@@ -19,11 +19,11 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Tarih.ToShortDateString()</td>
+                <td>@item.Tarih.ToString("dd.MM.yyyy")</td>
                 <td>@item.Saat</td>
                 <td>@item.Sube?.SubeAdi</td>
                 <td>@item.Hizmet?.HizmetAdi</td>
-                <td>@item.Calisan?.Adi</td>
+                <td>@item.Calisan?.Adi @item.Calisan?.Soyadi</td>
                 <td>@item.ApplicationUser?.UserName</td>
                 <td>
                     <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger btn-sm" 

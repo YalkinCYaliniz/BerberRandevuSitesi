@@ -1,6 +1,13 @@
+
+@model Randevu
 <h2>Yeni Randevu Oluştur</h2>
 
+
+
 <form asp-action="Create" method="post">
+    <div>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    </div>
     <div class="form-group">
         <label for="SubeId">Şube</label>
         <select id="SubeId" name="SubeId" class="form-control">
@@ -22,10 +29,13 @@
         </select>
     </div>
 
-    <div class="form-group">
-        <label for="Tarih">Tarih</label>
-        <input type="date" id="Tarih" name="Tarih" class="form-control" />
-    </div>
+   <div class="form-group">
+    <label for="Tarih">Tarih</label>
+    <input id="Tarih" name="Tarih" class="form-control" type="date" />
+    @Html.ValidationMessageFor(model => model.Tarih, "", new { @class = "text-danger" })
+</div>
+
+
 
     <div class="form-group">
         <label for="Saat">Saat</label>
@@ -41,6 +51,8 @@
 
     <button type="submit" class="btn btn-primary">Randevu Kaydet</button>
 </form>
+<partial name="_ValidationScriptsPartial" />
+
 
 <script>
     // Şubeleri Yükle
@@ -63,7 +75,8 @@
                     const calisanSelect = document.getElementById('CalisanId');
                     calisanSelect.innerHTML = '<option value="">Çalışan Seç</option>';
                     data.forEach(calisan => {
-                        calisanSelect.innerHTML += `<option value="${calisan.id}">${calisan.adi}</option>`;
+                         const fullName = `${calisan.adi} ${calisan.soyadi}`; // Ad ve soyad birleştirilir
+                        calisanSelect.innerHTML += `<option value="${calisan.id}">${fullName}</option>`;
                     });
                 });
         }

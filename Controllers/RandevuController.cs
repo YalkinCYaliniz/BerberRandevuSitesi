@@ -9,6 +9,7 @@ namespace BerberRandevuSitesi.Controllers
     public class RandevuController : Controller
     {
         private readonly ApplicationDbContext _context;
+    
 
         public RandevuController(ApplicationDbContext context)
         {
@@ -26,6 +27,9 @@ namespace BerberRandevuSitesi.Controllers
     [ValidateAntiForgeryToken]
     public IActionResult Create(Randevu randevu)
     {
+    ViewData["IsAdminPage"] = true;
+     
+
 
         if (ModelState.IsValid)
         {
@@ -35,16 +39,13 @@ namespace BerberRandevuSitesi.Controllers
         }
         if (!ModelState.IsValid)
 {
-    foreach (var state in ModelState)
-    {
-        Console.WriteLine($"Field: {state.Key}, Errors: {string.Join(", ", state.Value.Errors.Select(e => e.ErrorMessage))}");
-    }
 }
         foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
     {
         Console.WriteLine($"Hata: {error.ErrorMessage}");
     }
-        return View(randevu);
+    
+    return View(randevu);
     }
 
     public IActionResult Index()
