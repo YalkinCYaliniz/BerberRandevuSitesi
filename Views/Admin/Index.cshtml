@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/kullanicilar.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <!-- Hoş Geldin Mesajı -->
+        <h1 class="display-4">Hoş Geldin, @ViewBag.AdminName!</h1>
+
+        <!-- GIF -->
+        <div>
+            <img src="/images/recep.png" alt="Hoş Geldiniz" class="img-fluid">
+        </div>
+    </div>
+</body>
+</html>

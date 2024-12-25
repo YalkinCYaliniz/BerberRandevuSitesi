@@ -9,6 +9,7 @@ namespace BerberRandevuSitesi.Controllers
         public IActionResult Index()
         {
             ViewData["IsAdminPage"] = true; 
+            ViewBag.AdminName = "Admin"; 
             return View();
         }
     }

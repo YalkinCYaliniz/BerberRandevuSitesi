@@ -68,3 +68,14 @@ h1.display-4 {
 .mt-5 {
     margin-top: 50px;
 }
+.dropdown-menu {
+    background-color: black;  /* Arka plan rengi siyah */
+}
+.dropdown-item {
+    color: white !important;  /* Yazı rengi altın (gold) */
+}
+.dropdown-item:hover {
+    background-color: #444;  /* Hover efektiyle arka plan biraz daha koyulaşır */
+    color: gold !important;  /* Hoverda da altın renk kalır */
+}
+

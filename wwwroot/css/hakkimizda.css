@@ -62,3 +62,14 @@ body {
     border-radius: 10px;
     margin-top: 20px;
 }
+
+.dropdown-menu {
+    background-color: black;  /* Arka plan rengi siyah */
+}
+.dropdown-item {
+    color: white !important;  /* Yazı rengi altın (gold) */
+}
+.dropdown-item:hover {
+    background-color: #444;  /* Hover efektiyle arka plan biraz daha koyulaşır */
+    color: gold !important;  /* Hoverda da altın renk kalır */
+}

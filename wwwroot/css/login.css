@@ -61,3 +61,14 @@ a.text-decoration-none {
 a.text-decoration-none:hover {
     color: #0056b3; /* Link hover rengi */
 }
+
+.dropdown-menu {
+    background-color: black;  /* Arka plan rengi siyah */
+}
+.dropdown-item {
+    color: white !important;  /* Yazı rengi altın (gold) */
+}
+.dropdown-item:hover {
+    background-color: #444;  /* Hover efektiyle arka plan biraz daha koyulaşır */
+    color: gold !important;  /* Hoverda da altın renk kalır */
+}

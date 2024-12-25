@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x9zzGhChjE3cqwJa3SrB5upJFVFbg+idybiDq4wIKeE=",
+  "Hash": "rrhen6pi+LeWFQ1k8zrXFaFDAs/DZ9etq3OVA07581k=",
   "Source": "BerberRandevuSitesi",
   "BasePath": "_content/BerberRandevuSitesi",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BerberRandevuSitesi/wwwroot",
+      "Name": "BerberRandevuSitesi\\wwwroot",
       "Source": "BerberRandevuSitesi",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/scopedcss/bundle/BerberRandevuSitesi.styles.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BerberRandevuSitesi.styles.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "BerberRandevuSitesi.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/scopedcss/bundle/BerberRandevuSitesi.styles.css"
+      "OriginalItemSpec": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BerberRandevuSitesi.styles.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/scopedcss/projectbundle/BerberRandevuSitesi.bundle.scp.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BerberRandevuSitesi.bundle.scp.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "BerberRandevuSitesi.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/obj/Debug/net8.0/scopedcss/projectbundle/BerberRandevuSitesi.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BerberRandevuSitesi.bundle.scp.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/admin.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\admin.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/admin.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/admin.css"
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/hakkimizda.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\hakkimizda.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/hakkimizda.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/hakkimizda.css"
+      "OriginalItemSpec": "wwwroot\\css\\hakkimizda.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/hizmetler.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\hizmetler.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/hizmetler.css",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/hizmetler.css"
+      "OriginalItemSpec": "wwwroot\\css\\hizmetler.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/kullanicilar.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\kullanicilar.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/kullanicilar.css",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/kullanicilar.css"
+      "OriginalItemSpec": "wwwroot\\css\\kullanicilar.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/login.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\login.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/login.css"
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/partial.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\partial.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/partial.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/partial.css"
+      "OriginalItemSpec": "wwwroot\\css\\partial.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/register.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\register.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/register.css",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/register.css"
+      "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/sacdene.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\sacdene.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/sacdene.css",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/sacdene.css"
+      "OriginalItemSpec": "wwwroot\\css\\sacdene.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/css/styles.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\css\\styles.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/styles.css"
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/favicon.ico",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\favicon.ico",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/background.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\background.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/background.jpg",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/background.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/beard-trim.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\beard-trim.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/beard-trim.jpg",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/beard-trim.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\beard-trim.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/hair-dye.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\hair-dye.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/hair-dye.jpg",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/hair-dye.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\hair-dye.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/haircut.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\haircut.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/haircut.jpg",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/haircut.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\haircut.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/hakkimizda.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\hakkimizda.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/hakkimizda.jpg",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/hakkimizda.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\hakkimizda.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/hizmetler.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\hizmetler.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/hizmetler.jpg",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/hizmetler.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\hizmetler.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/person1.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\person1.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/person1.jpg",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/person1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\person1.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/person2.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\person2.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/person2.jpg",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/person2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\person2.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/person3.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\person3.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/person3.jpg",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/person3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\person3.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/person4.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\person4.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/person4.jpg",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/person4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\person4.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/person5.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\person5.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/person5.jpg",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/person5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\person5.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/person6.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\person6.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/person6.jpg",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/person6.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\person6.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/person7.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\person7.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/person7.jpg",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/person7.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\person7.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/person8.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\person8.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/person8.jpg",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/person8.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\person8.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/randevu.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\randevu.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/randevu.jpg",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/randevu.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\randevu.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/sacdene.gif",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\sacdene.gif",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/sacdene.gif",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/sacdene.gif"
+      "OriginalItemSpec": "wwwroot\\images\\sacdene.gif"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/skin-care.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\skin-care.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/skin-care.jpg",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/skin-care.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\skin-care.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/slider1.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\slider1.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/slider1.jpg",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/slider1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\slider1.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/slider2.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\slider2.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/slider2.jpg",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/slider2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\slider2.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/images/slider3.jpg",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\slider3.jpg",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "images/slider3.jpg",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/slider3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\slider3.jpg"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/apiIntegration.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\js\\apiIntegration.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "js/apiIntegration.js",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/apiIntegration.js"
+      "OriginalItemSpec": "wwwroot\\js\\apiIntegration.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/sifre.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\js\\sifre.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "js/sifre.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/sifre.js"
+      "OriginalItemSpec": "wwwroot\\js\\sifre.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/js/site.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\js\\site.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1211,13 +1211,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1230,13 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1249,13 +1249,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1268,13 +1268,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1287,13 +1287,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1306,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1325,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1344,13 +1344,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1363,13 +1363,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1382,13 +1382,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1401,13 +1401,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1420,13 +1420,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1439,13 +1439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1458,13 +1458,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1477,13 +1477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1496,13 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1515,13 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1534,13 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1553,13 +1553,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1572,13 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1591,13 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1610,13 +1610,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1629,13 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1648,13 +1648,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1667,13 +1667,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1686,13 +1686,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1705,13 +1705,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1724,13 +1724,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1743,13 +1743,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BerberRandevuSitesi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/yalkincanyaliniz/Desktop/web/BerberRandevuSitesi/wwwroot/",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
       "BasePath": "_content/BerberRandevuSitesi",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1762,7 +1762,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }
