@@ -1,0 +1,111 @@
+<h2>Yeni Randevu Oluştur</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="SubeId">Şube</label>
+        <select id="SubeId" name="SubeId" class="form-control">
+            <option value="">Şube Seç</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CalisanId">Çalışan</label>
+        <select id="CalisanId" name="CalisanId" class="form-control">
+            <option value="">Önce Şube Seçin</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="HizmetId">Hizmet</label>
+        <select id="HizmetId" name="HizmetId" class="form-control">
+            <option value="">Önce Çalışan Seçin</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Tarih">Tarih</label>
+        <input type="date" id="Tarih" name="Tarih" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="Saat">Saat</label>
+        <input type="time" id="Saat" name="Saat" class="form-control" min="09:00" max="20:00" />
+    </div>
+
+    <div class="form-group">
+        <label for="ApplicationUserId">Kullanıcı</label>
+        <select id="ApplicationUserId" name="ApplicationUserId" class="form-control">
+            <option value="">Kullanıcı Seç</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Randevu Kaydet</button>
+</form>
+
+<script>
+    // Şubeleri Yükle
+    fetch('/api/subeler')
+        .then(response => response.json())
+        .then(data => {
+            const subeSelect = document.getElementById('SubeId');
+            data.forEach(sube => {
+                subeSelect.innerHTML += `<option value="${sube.id}">${sube.subeAdi}</option>`;
+            });
+        });
+
+    // Şube Seçildiğinde Çalışanları Yükle
+    document.getElementById('SubeId').addEventListener('change', function () {
+        const subeId = this.value;
+        if (subeId) {
+            fetch(`/api/subeler/sube/${subeId}`)
+                .then(response => response.json())
+                .then(data => {
+                    const calisanSelect = document.getElementById('CalisanId');
+                    calisanSelect.innerHTML = '<option value="">Çalışan Seç</option>';
+                    data.forEach(calisan => {
+                        calisanSelect.innerHTML += `<option value="${calisan.id}">${calisan.adi}</option>`;
+                    });
+                });
+        }
+    });
+
+    // Çalışan Seçildiğinde Hizmetleri Yükle
+    document.getElementById('CalisanId').addEventListener('change', function () {
+    const calisanId = this.value; // Seçilen çalışanın ID'si
+    if (calisanId) {
+        fetch(`/api/hizmetler/${calisanId}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Hizmetler API hatası: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const hizmetSelect = document.getElementById('HizmetId');
+                hizmetSelect.innerHTML = '<option value="">Hizmet Seç</option>'; // Önce temizle
+                if (data && data.length > 0) {
+                    data.forEach(hizmet => {
+                        hizmetSelect.innerHTML += `<option value="${hizmet.id}">${hizmet.hizmetAdi}</option>`;
+                    });
+                } else {
+                    hizmetSelect.innerHTML = '<option value="">Bu çalışana ait hizmet bulunamadı.</option>';
+                }
+            })
+            .catch(error => {
+                console.error('Fetch hatası:', error);
+                alert('Hizmetleri yüklerken bir sorun oluştu.');
+            });
+    }
+});
+
+
+    // Kullanıcıları Yükle
+    fetch('/api/kullanicilar')
+        .then(response => response.json())
+        .then(data => {
+            const userSelect = document.getElementById('ApplicationUserId');
+            data.forEach(user => {
+                userSelect.innerHTML += `<option value="${user.id}">${user.userName}</option>`;
+            });
+        });
+</script>

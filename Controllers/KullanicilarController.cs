@@ -20,6 +20,8 @@ namespace BerberRandevuSitesi.Controllers
             ViewData["IsAdminPage"] = true;
             return View(_userManager.Users);
         }
+        
+
 
         [HttpGet]
         public IActionResult Olustur()
@@ -27,6 +29,17 @@ namespace BerberRandevuSitesi.Controllers
             ViewData["IsAdminPage"] = true;
             return View();
         }
+        [HttpGet("api/kullanicilar")]
+    public IActionResult GetKullanicilar()
+    {
+        var kullanicilar = _userManager.Users.Select(u => new
+        {
+            id = u.Id,
+            userName = u.UserName
+        }).ToList();
+
+        return Ok(kullanicilar);
+    }
 
         [HttpPost]
         public async Task<IActionResult> OlusturAsync(CreateViewModel model)

@@ -30,4 +30,21 @@ public class HizmetlerController : Controller
 
         return Ok(hizmetler);
     }
+    [HttpGet("{calisanId}")]
+    public IActionResult GetHizmetler(int calisanId)
+    {
+        var hizmetler = _dbContext.CalisanYetenekler
+    .Where(cy => cy.CalisanId == calisanId)
+    .Select(cy => new
+    {
+        id = cy.Hizmet.ID,
+        hizmetAdi = cy.Hizmet.HizmetAdi
+    }).ToList();
+
+return Ok(hizmetler);
+
+    }
+    
+
+
 }

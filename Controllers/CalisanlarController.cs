@@ -27,6 +27,7 @@ namespace BerberRandevuSitesi.Controllers
             ViewData["IsAdminPage"] = true;
             return View(); // Çalışanlar listesi sayfası
         }
+        
 
         // Tüm çalışanları getir
         [HttpGet]
@@ -231,6 +232,19 @@ public async Task<IActionResult> Ekle([FromBody] CalisanDTO calisanDto)
         return StatusCode(500, new { message = "Sunucu hatası.", details = ex.Message });
     }
 }
+[HttpGet("Sube/{subeId}")]
+    public IActionResult GetSubeCalisanlar(int subeId)
+    {
+        var calisanlar = _dbContext.Calisanlar
+                                 .Where(c => c.SubeId == subeId)
+                                 .Select(c => new
+                                 {
+                                     id = c.SubeId,
+                                     adi = c.Adi
+                                 }).ToList();
+
+        return Ok(calisanlar);
+    }
 
 
 

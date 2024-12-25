@@ -1,0 +1,35 @@
+@model IEnumerable<Randevu>
+
+<h2>Randevular</h2>
+<a asp-action="Create" class="btn btn-primary mb-3">Yeni Randevu Ekle</a>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Tarih</th>
+            <th>Saat</th>
+            <th>Şube</th>
+            <th>Hizmet</th>
+            <th>Çalışan</th>
+            <th>Kullanıcı</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Tarih.ToShortDateString()</td>
+                <td>@item.Saat</td>
+                <td>@item.Sube?.SubeAdi</td>
+                <td>@item.Hizmet?.HizmetAdi</td>
+                <td>@item.Calisan?.Adi</td>
+                <td>@item.ApplicationUser?.UserName</td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger btn-sm" 
+                       onclick="return confirm('Bu randevuyu silmek istediğinize emin misiniz?')">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

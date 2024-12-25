@@ -60,6 +60,27 @@ namespace BerberRandevuSitesi.Controllers
 
             return Ok(sube);
         }
+        [HttpGet("sube/{subeId}")]
+public IActionResult GetSubeCalisanlar(int subeId)
+{
+    var calisanlar = _dbContext.Calisanlar
+        .Where(c => c.SubeId == subeId)
+        .Select(c => new
+        {
+            id = c.CalisanId, // Benzersiz çalışan ID'si
+            adi = c.Adi
+        })
+        .ToList();
+
+    if (!calisanlar.Any())
+    {
+        return NotFound(new { message = "Bu şubeye ait çalışan bulunamadı." });
+    }
+
+    return Ok(calisanlar);
+}
+
+
 
         // Şube Ekleme (POST)
         [HttpGet("/Subeler/Ekle")]
