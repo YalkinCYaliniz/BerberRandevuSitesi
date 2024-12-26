@@ -3,9 +3,11 @@ using BerberRandevuSitesi.Models;
 using System.Linq;
 using BerberRandevuSitesi.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BerberRandevuSitesi.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class RandevuController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -33,6 +35,7 @@ namespace BerberRandevuSitesi.Controllers
 
         if (ModelState.IsValid)
         {
+            randevu.musaitlik = true;
             _context.Randevular.Add(randevu);
             _context.SaveChanges();
             return RedirectToAction("Index");

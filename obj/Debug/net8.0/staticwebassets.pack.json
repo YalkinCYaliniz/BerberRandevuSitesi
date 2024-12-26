@@ -105,6 +105,10 @@
       "PackagePath": "staticwebassets\\images\\randevu.jpg"
     },
     {
+      "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\recep.png",
+      "PackagePath": "staticwebassets\\images\\recep.png"
+    },
+    {
       "Id": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\sacdene.gif",
       "PackagePath": "staticwebassets\\images\\sacdene.gif"
     },

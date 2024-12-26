@@ -1,12 +1,14 @@
 using BerberRandevuSitesi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BerberRandevuSitesi.Controllers
 {
-
+    [Authorize(Roles ="Admin")]
     public class KullanicilarController : Controller
-    {
+    {   
+        
         public KullanicilarController(UserManager<ApplicationUser> userManager)
         {
 

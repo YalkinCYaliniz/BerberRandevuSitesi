@@ -5,9 +5,11 @@ using BerberRandevuSitesi.Models;
 using System.Linq;
 using System.Threading.Tasks;
 using BerberRandevuSitesi.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BerberRandevuSitesi.Controllers
 {
+    [Authorize(Roles ="Admin")]
     [ApiController]
     [Route("api/[controller]")]
     public class CalisanlarController : Controller

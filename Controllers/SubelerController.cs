@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using BerberRandevuSitesi.Data;
 using BerberRandevuSitesi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BerberRandevuSitesi.Controllers
 {
+    [Authorize(Roles ="Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class SubelerController : Controller

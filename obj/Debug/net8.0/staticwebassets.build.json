@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rrhen6pi+LeWFQ1k8zrXFaFDAs/DZ9etq3OVA07581k=",
+  "Hash": "f3BC2Dwub+yc9dzO7C/d3FYtOg86uisTV5TLqKAfsC0=",
   "Source": "BerberRandevuSitesi",
   "BasePath": "_content/BerberRandevuSitesi",
   "Mode": "Default",
@@ -528,6 +528,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\randevu.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\recep.png",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/recep.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\recep.png"
     },
     {
       "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\sacdene.gif",
