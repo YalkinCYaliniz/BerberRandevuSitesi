@@ -17,7 +17,7 @@ public class IdentitySeedData
     {
         user3 = new ApplicationUser
         {
-            UserName = "Admin1",  // Admin kullanıcı adı farklı olmalı
+            UserName = "Admin1",  
             Email = "B221210101@sakarya.edu.tr",
             PhoneNumber = "5320580805",
             yas = 20,
@@ -25,7 +25,7 @@ public class IdentitySeedData
             soyad = "Yalınız"
         };
         
-        // Admin için özel şifre (sau) kullanılıyor
+        // Admin için özel şifre (sau)
         var result = await userManager.CreateAsync(user3, "sau");  
         if (result.Succeeded)
         {
@@ -46,7 +46,7 @@ public class IdentitySeedData
     {
         user4 = new ApplicationUser
         {
-            UserName = "Admin2",  // Admin kullanıcı adı farklı olmalı
+            UserName = "Admin2", 
             Email = "B211210056@sakarya.edu.tr",
             PhoneNumber = "5330911884",
             yas = 23,
@@ -54,7 +54,7 @@ public class IdentitySeedData
             soyad = "Bilen"
         };
         
-        // Admin için özel şifre (sau) kullanılıyor
+        // Admin için özel şifre (sau) 
         var result = await userManager.CreateAsync(user4, "sau");  
         if (result.Succeeded)
         {

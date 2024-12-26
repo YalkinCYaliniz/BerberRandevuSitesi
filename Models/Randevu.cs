@@ -48,25 +48,15 @@ public class Randevu
     [ValidateNever]
     public ApplicationUser ApplicationUser { get; set; }
 
-    [NotMapped]
-public DateTime TarihAsDateTime
-{
-    get => Tarih.ToDateTime(TimeOnly.MinValue);
-    set => Tarih = DateOnly.FromDateTime(value);
-}
-
-
     public static ValidationResult? ValidateTarih(DateOnly tarih, ValidationContext context)
-{
-    var today = DateOnly.FromDateTime(DateTime.Now.Date); // Bugünün tarihi
-    if (tarih < today)
     {
-        return new ValidationResult("Randevu tarihi bugünden ileri bir tarih olmalıdır.");
+        var today = DateOnly.FromDateTime(DateTime.Now.Date); // Bugünün tarihi
+        if (tarih < today)
+        {
+            return new ValidationResult("Randevu tarihi bugünden ileri bir tarih olmalıdır.");
+        }
+        return ValidationResult.Success;
     }
-    return ValidationResult.Success;
-}
-
-
 
     public static ValidationResult? ValidateSaat(string saat, ValidationContext context)
     {

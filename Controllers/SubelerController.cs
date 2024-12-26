@@ -18,7 +18,7 @@ namespace BerberRandevuSitesi.Controllers
             _dbContext = dbContext;
         }
 
-      [HttpGet]
+        [HttpGet]
         public IActionResult GetSubeler()
         {
             var subeler = _dbContext.Subeler
@@ -34,15 +34,13 @@ namespace BerberRandevuSitesi.Controllers
             return Ok(subeler);
         }
 
-        // Razor View: Şubeler sayfasını döner
         [HttpGet("/Subeler")]
         public IActionResult Index()
         {
-        ViewData["IsAdminPage"] = true;
-            return View(); // Razor View olan Views/Subeler/Index.cshtml dosyasını döner
+            ViewData["IsAdminPage"] = true;
+            return View(); 
         }
 
-        // Şube Bilgisi Getirme (GET)
         [HttpGet("{id}")]
         public IActionResult GetSube(int id)
         {
@@ -62,52 +60,49 @@ namespace BerberRandevuSitesi.Controllers
 
             return Ok(sube);
         }
+        
         [HttpGet("sube/{subeId}")]
-public IActionResult GetSubeCalisanlar(int subeId)
-{
-    var calisanlar = _dbContext.Calisanlar
-        .Where(c => c.SubeId == subeId)
-        .Select(c => new
+        public IActionResult GetSubeCalisanlar(int subeId)
         {
-            id = c.CalisanId, // Benzersiz çalışan ID'si
-            adi = c.Adi,
-            soyadi = c.Soyadi
-        })
-        .ToList();
+            var calisanlar = _dbContext.Calisanlar
+                .Where(c => c.SubeId == subeId)
+                .Select(c => new
+                {
+                    id = c.CalisanId, // Benzersiz çalışan ID'si
+                    adi = c.Adi,
+                    soyadi = c.Soyadi
+                })
+                .ToList();
 
-    if (!calisanlar.Any())
-    {
-        return NotFound(new { message = "Bu şubeye ait çalışan bulunamadı." });
-    }
+            if (!calisanlar.Any())
+            {
+                return NotFound(new { message = "Bu şubeye ait çalışan bulunamadı." });
+            }
 
-    return Ok(calisanlar);
-}
+            return Ok(calisanlar);
+        }
 
-
-
-        // Şube Ekleme (POST)
         [HttpGet("/Subeler/Ekle")]
-public IActionResult Ekle()
-{
-ViewData["IsAdminPage"] = true;
-    return View();
-}
+        public IActionResult Ekle()
+        {
+            ViewData["IsAdminPage"] = true;
+            return View();
+        }
 
-[HttpPost("/Subeler/Ekle")]
-public IActionResult Ekle([FromForm] Subeler sube)
-{
-    if (!ModelState.IsValid)
-    {
-        return View(sube); // Formu tekrar göster
-    }
+        [HttpPost("/Subeler/Ekle")]
+        public IActionResult Ekle([FromForm] Subeler sube)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(sube); // Formu tekrar göster
+            }
 
-    _dbContext.Subeler.Add(sube);
-    _dbContext.SaveChanges();
-    return RedirectToAction("Index", "Subeler");
-}
+            _dbContext.Subeler.Add(sube);
+            _dbContext.SaveChanges();
+            return RedirectToAction("Index", "Subeler");
+        }
 
 
-        // Şube Güncelleme (PUT)
         [HttpPut("{id}")]
         public IActionResult UpdateSube(int id, [FromBody] Subeler sube)
         {
@@ -124,7 +119,6 @@ public IActionResult Ekle([FromForm] Subeler sube)
             return NoContent();
         }
 
-        // Şube Silme (DELETE)
         [HttpDelete("{id}")]
         public IActionResult DeleteSube(int id)
         {
