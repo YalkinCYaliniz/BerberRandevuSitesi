@@ -61,16 +61,7 @@ namespace BerberRandevuSitesi.Data
         .HasOne(cy => cy.Hizmet)
         .WithMany()
         .HasForeignKey(cy => cy.HizmetId)
-        .OnDelete(DeleteBehavior.Restrict); // Hizmet silindiğinde, bu hizmeti kullanan çalışan yetenekleri etkilenmez.
-
-
-
-            
+        .OnDelete(DeleteBehavior.Restrict); // Hizmet silindiğinde, bu hizmeti kullanan çalışan yetenekleri etkilenmez.      
         }
-   
-
-    
-
-
- }
+    }
 }

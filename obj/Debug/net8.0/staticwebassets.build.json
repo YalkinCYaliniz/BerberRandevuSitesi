@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f3BC2Dwub+yc9dzO7C/d3FYtOg86uisTV5TLqKAfsC0=",
+  "Hash": "J2ctBKu8EbqS5n0Z5tcspSf8+zhdPYjFSboXtpqopNs=",
   "Source": "BerberRandevuSitesi",
   "BasePath": "_content/BerberRandevuSitesi",
   "Mode": "Default",
@@ -642,6 +642,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\slider3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\images\\vesikalık.jpg",
+      "SourceId": "BerberRandevuSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\",
+      "BasePath": "_content/BerberRandevuSitesi",
+      "RelativePath": "images/vesikalık.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vesikalık.jpg"
     },
     {
       "Identity": "C:\\Users\\ismlf\\OneDrive\\Masaüstü\\githubb\\BerberRandevuSitesi\\wwwroot\\js\\apiIntegration.js",
